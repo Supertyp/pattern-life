@@ -1,0 +1,26 @@
+---
+import { url } from '../lib/url';
+// Client-side search powered by Pagefind. The index is generated after `astro build`,
+// so search only works on the built site (`npm run build && npm run preview`), not in `npm run dev`.
+---
+<link rel="stylesheet" href={url('/pagefind/pagefind-ui.css')} />
+<div id="pagefind-search" class="search-ui"></div>
+<script is:inline src={url('/pagefind/pagefind-ui.js')}></script>
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (typeof PagefindUI === 'undefined') return;
+    new PagefindUI({ element: '#pagefind-search', showSubResults: true, showImages: false });
+  });
+</script>
+
+<style>
+  .search-ui {
+    margin: 1.5rem 0;
+    --pagefind-ui-primary: var(--color-accent);
+    --pagefind-ui-text: var(--color-text);
+    --pagefind-ui-background: var(--color-bg);
+    --pagefind-ui-border: var(--color-border);
+    --pagefind-ui-tag: var(--color-code);
+    --pagefind-ui-font: inherit;
+  }
+</style>

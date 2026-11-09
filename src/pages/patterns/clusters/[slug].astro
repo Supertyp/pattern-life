@@ -1,0 +1,35 @@
+---
+import { url } from '../../../lib/url';
+import { render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PatternList from '../../../components/PatternList.astro';
+import { getClusterGroups } from '../../../lib/patterns';
+
+export async function getStaticPaths() {
+  const groups = await getClusterGroups();
+  return groups.map(({ cluster, patterns }) => ({ params: { slug: cluster.id }, props: { cluster, patterns } }));
+}
+
+const { cluster, patterns } = Astro.props;
+const { Content } = await render(cluster);
+---
+<BaseLayout title={cluster.data.title} description={cluster.data.framing}>
+  <article>
+    <header class="cluster-header">
+      <h1>{cluster.data.title}</h1>
+      <p class="lead">{cluster.data.framing}</p>
+    </header>
+    <div class="prose"><Content /></div>
+    <section class="members">
+      <h2>Patterns in this area</h2>
+      <PatternList patterns={patterns} showAppliesWhen />
+    </section>
+    <p class="back-link"><a href={url('/patterns/')}>← Back to patterns</a></p>
+  </article>
+</BaseLayout>
+
+<style>
+  .lead { margin-bottom: 1.5rem; }
+  .members { margin-top: 2.5rem; }
+  .members h2 { font-size: 1.3rem; }
+</style>

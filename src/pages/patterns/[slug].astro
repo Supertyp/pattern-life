@@ -1,0 +1,101 @@
+---
+import { url } from '../../lib/url';
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPatterns, getClusters } from '../../lib/patterns';
+
+export async function getStaticPaths() {
+  const [patterns, clusters] = await Promise.all([getPatterns(), getClusters()]);
+  return patterns.map((pattern) => ({
+    params: { slug: pattern.id },
+    props: { pattern, cluster: clusters.find((c) => c.id === pattern.data.cluster) },
+  }));
+}
+
+const { pattern, cluster } = Astro.props;
+const { Content } = await render(pattern);
+const { data } = pattern;
+const credits = [
+  { role: data.authors.length > 1 ? 'Authors' : 'Author', names: data.authors },
+  { role: data.editors.length > 1 ? 'Editors' : 'Editor', names: data.editors },
+].filter((c) => c.names.length > 0);
+---
+<BaseLayout title={data.title} description={data.problem}>
+  <article data-pagefind-body>
+    <header class="pattern-header">
+      <div class="pattern-head">
+        <h1>{data.title}</h1>
+        <span class="pattern-type" data-pagefind-filter="type">{data.type}</span>
+      </div>
+      {cluster && (
+        <p class="cluster-membership">
+          Part of <a href={url(`/patterns/clusters/${cluster.id}/`)} data-pagefind-filter="area">{cluster.data.title}</a>
+        </p>
+      )}
+    </header>
+
+    <div class="problem-callout" data-pagefind-meta="problem"><p>{data.problem}</p></div>
+
+    <section class="applies-when">
+      <h2>Applies when</h2>
+      <ul>{data.appliesWhen.map((item) => <li>{item}</li>)}</ul>
+    </section>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <section class="credits" data-pagefind-ignore>
+      <h2>Credits</h2>
+      {credits.map((c) => (
+        <p class="credit-row">
+          <span class="pattern-type">{c.role}</span>
+          <span>{c.names.join(', ')}</span>
+        </p>
+      ))}
+      <p class="credit-row">
+        <span class="pattern-type">Published</span>
+        <time datetime={data.published.toISOString()}>
+          {data.published.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+      </p>
+    </section>
+
+    <p class="back-link" data-pagefind-ignore><a href={url('/patterns/')}>← Back to patterns</a></p>
+  </article>
+</BaseLayout>
+
+<style>
+  .pattern-header { margin-bottom: 1.5rem; }
+  .pattern-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; }
+  .pattern-head h1 { margin: 0; font-size: 2rem; }
+  .cluster-membership { margin: 0.5rem 0 0; color: var(--color-muted); font-size: 0.9rem; }
+  .problem-callout {
+    background: var(--color-callout);
+    border-left: 3px solid var(--color-accent);
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.25rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+  }
+  .problem-callout p { margin: 0; }
+  .applies-when h2 {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin-bottom: 0.5rem;
+  }
+  .applies-when ul { margin: 0; padding-left: 1.25rem; }
+  .credits { border-top: 1px solid var(--color-border); margin-top: 2.5rem; padding-top: 1.25rem; }
+  .credits h2 {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin: 0 0 0.9rem;
+  }
+  .credit-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin: 0 0 0.5rem; font-size: 0.95rem; }
+  .credit-row time { font-family: inherit; color: inherit; }
+</style>

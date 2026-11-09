@@ -1,0 +1,53 @@
+---
+import { url } from '../lib/url';
+import type { Pattern } from '../lib/patterns';
+
+interface Props {
+  patterns: Pattern[];
+  showAppliesWhen?: boolean;
+}
+
+const { patterns, showAppliesWhen = false } = Astro.props;
+---
+<ul class="pattern-list">
+  {patterns.map((p) => (
+    <li>
+      <div class="pattern-head">
+        <a href={url(`/patterns/${p.id}/`)} class="pattern-title">{p.data.title}</a>
+        <span class="pattern-type">{p.data.type}</span>
+      </div>
+      <p class="pattern-problem">{p.data.problem}</p>
+      {showAppliesWhen && (
+        <>
+          <p class="applies-label">Applies when</p>
+          <ul class="applies-list">
+            {p.data.appliesWhen.map((item) => <li>{item}</li>)}
+          </ul>
+        </>
+      )}
+    </li>
+  ))}
+</ul>
+
+<style>
+  .pattern-list { list-style: none; margin: 0; padding: 0; }
+  .pattern-list > li { border-top: 1px solid var(--color-border); padding: 1.5rem 0; }
+  .pattern-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; }
+  .pattern-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: underline 1px;
+    text-underline-offset: 3px;
+  }
+  .pattern-title:hover { text-decoration-thickness: 2px; }
+  .pattern-problem { color: var(--color-muted); margin: 0.5rem 0 0; }
+  .applies-label {
+    margin: 0.75rem 0 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  .applies-list { margin: 0; padding-left: 1.25rem; font-size: 0.9rem; }
+</style>

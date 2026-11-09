@@ -1,0 +1,165 @@
+---
+import { url } from '../lib/url';
+import '@fontsource-variable/inter';
+import '@fontsource-variable/inter-tight';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = 'Practical patterns for everyday life' } = Astro.props;
+// Path without the base prefix, so it can be compared with the nav hrefs below.
+const path = Astro.url.pathname.slice(import.meta.env.BASE_URL.replace(/\/$/, '').length);
+const pageTitle = title ? `${title} · Pattern Life` : 'Pattern Life';
+
+const nav = [
+  { href: '/patterns/', label: 'Patterns' },
+  { href: '/patterns/clusters/', label: 'Life areas' },
+  { href: '/principles/', label: 'Principles' },
+  { href: '/contribute/', label: 'Contribute' },
+  { href: '/about/', label: 'About' },
+];
+// The Patterns entry stays highlighted on pattern pages, but not on the life-areas pages.
+const isCurrent = (href: string) =>
+  href === '/patterns/'
+    ? path.startsWith('/patterns/') && !path.startsWith('/patterns/clusters/')
+    : path.startsWith(href);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <link rel="alternate" type="application/rss+xml" title="Pattern Life patterns" href={url('/patterns/rss.xml')} />
+  </head>
+  <body data-pagefind-ignore>
+    <header>
+      <nav>
+        <a href={url('/')} class="site-title"><span>Pattern</span><span class="wordmark-sep">·Life</span></a>
+        <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-hidden="true" />
+        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <rect y="3" width="20" height="2" rx="1"></rect>
+            <rect y="9" width="20" height="2" rx="1"></rect>
+            <rect y="15" width="20" height="2" rx="1"></rect>
+          </svg>
+        </label>
+        <ul>
+          {nav.map((item) => (
+            <li>
+              <a href={url(item.href)} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <p class="footer-text">
+          Pattern Life is a growing library of practical patterns for everyday life: recurring problems and the
+          solutions that reliably work, written down so anyone can use them.
+        </p>
+        <p class="footer-small">
+          <a href={url('/patterns/')}>Patterns</a> · <a href={url('/patterns/rss.xml')}>RSS</a> · <a href={url('/contribute/')}>Suggest a pattern</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  header {
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg);
+    padding: 0.875rem 2rem;
+  }
+  nav {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .site-title {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+    flex-shrink: 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: var(--color-text);
+  }
+  .site-title:hover { text-decoration: none; }
+  .wordmark-sep { color: var(--color-accent); font-weight: 300; }
+  .nav-checkbox { position: absolute; width: 0; height: 0; opacity: 0; pointer-events: none; }
+  .nav-toggle { display: none; }
+  nav > ul {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 0 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+  nav ul a {
+    position: relative;
+    padding-bottom: 2px;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+  }
+  nav ul a:hover { color: var(--color-text); text-decoration: none; }
+  nav ul a[aria-current='page'] { color: var(--color-text); font-weight: 500; }
+  nav ul a[aria-current='page']::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.875rem;
+    height: 2px;
+    background: var(--color-accent);
+  }
+  main {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+  footer {
+    border-top: 1px solid var(--color-border);
+    padding: 2.5rem 2rem;
+  }
+  .footer-inner {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-text { color: var(--color-muted); font-size: 0.8rem; line-height: 1.65; max-width: 43rem; margin: 0; }
+  .footer-small { font-size: 0.8rem; margin: 0; }
+
+  @media (width <= 640px) {
+    header, main, footer { padding-left: 1rem; padding-right: 1rem; }
+    nav { flex-wrap: wrap; justify-content: space-between; gap: 0; }
+    .nav-toggle { display: flex; align-items: center; padding: 0.5rem 0; cursor: pointer; color: var(--color-muted); }
+    nav > ul {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      width: 100%;
+      margin-left: 0;
+      padding: 0.5rem 0;
+      border-top: 1px solid var(--color-border);
+    }
+    .nav-checkbox:checked + .nav-toggle + ul { display: flex; }
+    nav ul a { display: block; padding: 0.5rem 0; }
+    nav ul a[aria-current='page']::after { display: none; }
+  }
+</style>
