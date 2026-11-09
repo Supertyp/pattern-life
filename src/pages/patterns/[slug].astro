@@ -2,17 +2,18 @@
 import { url } from '../../lib/url';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getPatterns, getClusters } from '../../lib/patterns';
+import { getPatterns, getClusters, getRelatedMap } from '../../lib/patterns';
 
 export async function getStaticPaths() {
-  const [patterns, clusters] = await Promise.all([getPatterns(), getClusters()]);
-  return patterns.map((pattern) => ({
-    params: { slug: pattern.id },
-    props: { pattern, cluster: clusters.find((c) => c.id === pattern.data.cluster) },
-  }));
+  const [patterns, clusters, relatedMap] = await Promise.all([getPatterns(), getClusters(), getRelatedMap()]);
+  return patterns.map((pattern) => {
+    const cluster = clusters.find((c) => c.id === pattern.data.cluster);
+    if (!cluster) throw new Error(`Pattern "${pattern.id}" has unknown cluster "${pattern.data.cluster}"`);
+    return { params: { slug: pattern.id }, props: { pattern, cluster, related: relatedMap.get(pattern.id) ?? [] } };
+  });
 }
 
-const { pattern, cluster } = Astro.props;
+const { pattern, cluster, related } = Astro.props;
 const { Content } = await render(pattern);
 const { data } = pattern;
 const credits = [
@@ -44,6 +45,21 @@ const credits = [
     <div class="prose">
       <Content />
     </div>
+
+    {related.length > 0 && (
+      <section class="related" data-pagefind-ignore>
+        <h2>Related patterns</h2>
+        <ul>
+          {related.map((r) => (
+            <li>
+              <a href={url(`/patterns/${r.id}/`)}>{r.data.title}</a>
+              <span class="pattern-type">{r.data.type}</span>
+              <p>{r.data.problem}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <section class="credits" data-pagefind-ignore>
       <h2>Credits</h2>
@@ -88,14 +104,18 @@ const credits = [
     margin-bottom: 0.5rem;
   }
   .applies-when ul { margin: 0; padding-left: 1.25rem; }
-  .credits { border-top: 1px solid var(--color-border); margin-top: 2.5rem; padding-top: 1.25rem; }
-  .credits h2 {
+  .related { border-top: 1px solid var(--color-border); margin-top: 2.5rem; padding-top: 1.25rem; }
+  .related h2, .credits h2 {
     font-size: 0.8rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--color-muted);
     margin: 0 0 0.9rem;
   }
+  .related ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.9rem; }
+  .related li a { font-weight: 600; margin-right: 0.5rem; }
+  .related li p { margin: 0.2rem 0 0; color: var(--color-muted); font-size: 0.9rem; }
+  .credits { border-top: 1px solid var(--color-border); margin-top: 2.5rem; padding-top: 1.25rem; }
   .credit-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin: 0 0 0.5rem; font-size: 0.95rem; }
   .credit-row time { font-family: inherit; color: inherit; }
 </style>

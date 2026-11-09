@@ -9,6 +9,7 @@ appliesWhen:
   - a short walk or public transport ride from the edge of the centre is acceptable
 authors: [Pattern Life team]
 published: 2026-11-10
+related: [parallel-parking, three-second-gap, zip-merge]
 ---
 
 ## Summary
@@ -36,7 +37,7 @@ There's a trade-off between price and walking distance. Car parks further from t
 
 **Before leaving:** use a map or parking app to choose a main and a backup car park, and note their opening hours, prices and entrance streets.
 
-**On the way:** navigate to the car park entrance. If it's full, go straight to the backup rather than circling.
+**On the way:** navigate to the car park entrance. If it's full, go straight to the backup rather than circling. If you end up parking on the street, see [Parallel parking by reference points](../parallel-parking/).
 
 **After parking:** take a photo of your level and bay number, and note when your parking expires.
 

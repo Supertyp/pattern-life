@@ -9,6 +9,7 @@ appliesWhen:
   - the route is longer or more remote than a short, busy walk
 authors: [Pattern Life team]
 published: 2026-11-10
+related: [turnaround-time, dress-in-layers, travel-document-backup]
 ---
 
 ## Summary
@@ -36,7 +37,7 @@ There's a trade-off between detail and effort. A written trip intention form is 
 
 **Before leaving:** write down the route, alternatives, group members, car details, gear and alarm time, and send it to your contact. Leave a copy at home or in the car.
 
-**On the trail:** stick to the plan where you can. If you change route and have coverage, send a short update.
+**On the trail:** stick to the plan where you can, including the [turnaround time](../turnaround-time/) you set. If you change route and have coverage, send a short update.
 
 **Afterwards:** check in with your contact as soon as you're back, even if you're running late.
 

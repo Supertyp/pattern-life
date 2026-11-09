@@ -18,6 +18,10 @@ Built with [Astro](https://astro.build/) and [Pagefind](https://pagefind.app/) s
   See `/contribute/` on the site for the template. Frontmatter is validated by `src/content.config.ts`.
 - **Life area (cluster):** add a markdown file to `src/content/clusters/`. A pattern's `cluster` field
   must match a cluster's file name (e.g. `kitchen`).
+- **Cross-links:** link to another pattern inside the text with `[Title](../other-id/)`, or list ids in the
+  `related` frontmatter field. Related patterns are shown in both directions, and unknown ids fail the build.
+- **Pattern language page** (`src/pages/language.astro`): the journeys (situations with their sequence of patterns)
+  are defined in `src/data/journeys.ts`.
 - **Pattern types** (`technique`, `process`, `preparation`, `safety`, `etiquette`) are defined in `src/content.config.ts`.
 
 ## Deploying

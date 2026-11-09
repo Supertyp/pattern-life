@@ -28,7 +28,14 @@ const latest = (await getPatterns())
       recommendations and the reasons for them, the context it suits (and doesn't), how to do it, and references. That makes patterns quick to scan
       and easy to compare.
     </p>
-    <p><a href={url('/patterns/')} class="cta">Browse the patterns →</a></p>
+    <p>
+      Together the patterns form a <strong>pattern language</strong>: each one links to its neighbours, so you can
+      follow them through whole situations, like cooking a dinner, going to a conference or getting fitter.
+    </p>
+    <p class="cta-row">
+      <a href={url('/language/')} class="cta">Start with the pattern language →</a>
+      <a href={url('/patterns/')} class="cta-secondary">Browse all patterns</a>
+    </p>
   </section>
 
   <section>
@@ -73,6 +80,8 @@ const latest = (await getPatterns())
     color: var(--color-bg);
     font-weight: 500;
   }
+  .cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; }
+  .cta-secondary { margin-top: 0.5rem; font-weight: 500; }
   .cta:hover { text-decoration: none; opacity: 0.9; }
   .area-grid {
     list-style: none;

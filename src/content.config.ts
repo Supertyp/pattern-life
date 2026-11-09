@@ -20,6 +20,8 @@ const patterns = defineCollection({
     appliesWhen: z.array(z.string()).min(1),
     authors: z.array(z.string()).default(['Pattern Life team']),
     editors: z.array(z.string()).default([]),
+    // Ids of closely related patterns. Links are shown in both directions on the pattern pages.
+    related: z.array(z.string()).default([]),
     published: z.coerce.date(),
     draft: z.boolean().default(false),
   }),

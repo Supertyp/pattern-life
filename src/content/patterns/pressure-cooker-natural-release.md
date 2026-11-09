@@ -9,6 +9,7 @@ appliesWhen:
   - there's time to wait 10 to 20 minutes after the cooking time ends
 authors: [Pattern Life team]
 published: 2026-11-10
+related: [storing-leftovers, rice-cooker-basics, cook-by-temperature]
 ---
 
 ## Summary
@@ -30,7 +31,7 @@ This pattern suits stews, braises, dried beans, stock, rice and porridge.
 
 It does not suit delicate food where a few extra minutes of cooking ruin the texture, or a meal that has to be on the table straight away.
 
-There's a trade-off between time and texture. A full natural release can take 20 to 30 minutes when the cooker is very full. A partial natural release, waiting 10 minutes and then releasing the rest quickly, gets most of the benefit in less time and works well for rice and grains.
+There's a trade-off between time and texture. A full natural release can take 20 to 30 minutes when the cooker is very full. A partial natural release, waiting 10 minutes and then releasing the rest quickly, gets most of the benefit in less time and works well for rice and grains (see also [Rinse, measure and rest rice](../rice-cooker-basics/)).
 
 ## Usage
 
@@ -38,7 +39,7 @@ There's a trade-off between time and texture. A full natural release can take 20
 
 **Releasing:** after 10 to 15 minutes, turn the valve to venting with a long spoon. If foam or liquid comes out of the valve, close it again and wait a few more minutes.
 
-**Opening:** wait for the float valve to drop, then open the lid tilted away from you.
+**Opening:** wait for the float valve to drop, then open the lid tilted away from you. For meat, check it's cooked through with a thermometer, as in [Cook by temperature, not time](../cook-by-temperature/), and cool any leftovers promptly following [Cooling and storing leftovers](../storing-leftovers/).
 
 ## References
 

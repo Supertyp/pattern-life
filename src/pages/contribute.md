@@ -8,6 +8,8 @@ Pattern Life grows through contributions. If you have a solution to an everyday 
 
 ## Pattern template
 
+Patterns link to each other instead of repeating each other. To link to another pattern inside the text, use a relative link with its id, for example `[Keeping knives sharp](../knife-sharpening/)`. Links appear automatically in both directions under "Related patterns", and the build fails if a link points to a pattern that doesn't exist.
+
 Each pattern is a markdown file in `src/content/patterns/`. Copy the template below and fill it in.
 
 ```markdown
@@ -21,6 +23,7 @@ appliesWhen:
   - second condition
 authors: [Your Name]
 published: 2026-11-10
+related: [other-pattern-id]   # optional: ids of closely related patterns
 ---
 
 ## Summary

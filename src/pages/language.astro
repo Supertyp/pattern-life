@@ -1,0 +1,110 @@
+---
+import { url } from '../lib/url';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getClusterGroups, getPatterns, getRelatedMap } from '../lib/patterns';
+import { journeys } from '../data/journeys';
+
+const [patterns, groups, relatedMap] = await Promise.all([getPatterns(), getClusterGroups(), getRelatedMap()]);
+const byId = new Map(patterns.map((p) => [p.id, p]));
+for (const journey of journeys) {
+  for (const id of journey.steps) {
+    if (!byId.has(id)) throw new Error(`Journey "${journey.title}" refers to unknown pattern "${id}"`);
+  }
+}
+const linkCount = [...relatedMap.values()].reduce((n, r) => n + r.length, 0) / 2;
+---
+<BaseLayout title="Pattern language" description="How Pattern Life's patterns fit together, and where to start">
+  <h1>Pattern language</h1>
+  <p class="lead">
+    {patterns.length} patterns across {groups.length} areas of life, joined by {linkCount} links. Use them on their own,
+    or follow them together as a language for handling everyday situations well.
+  </p>
+
+  <section class="prose">
+    <h2>How to use this language</h2>
+    <p>
+      A single pattern solves a single problem. Real situations involve several problems in a row: cooking dinner means
+      preparing, cutting, cooking, storing and cleaning up. The patterns here are written to fit together, and each one
+      points to its neighbours instead of repeating them.
+    </p>
+    <ul>
+      <li><strong>Start from a situation.</strong> Pick one of the journeys below and work through its patterns in order.</li>
+      <li><strong>Start from a problem.</strong> Search the <a href={url('/patterns/')}>pattern library</a>, read the problem and the "Applies when" list, and check it matches your situation.</li>
+      <li><strong>Follow the links.</strong> Every pattern ends with its related patterns. Following them is how you find the next useful habit.</li>
+      <li><strong>Adapt it.</strong> Each pattern names a trade-off. If your circumstances differ, make the other choice deliberately.</li>
+      <li><strong>Make it a habit.</strong> Pick one pattern, practise it for a week or two until it's automatic, then add the next.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Journeys</h2>
+    <div class="journeys">
+      {journeys.map((journey) => (
+        <article class="journey">
+          <h3>{journey.title}</h3>
+          <p>{journey.intro}</p>
+          <ol>
+            {journey.steps.map((id) => {
+              const p = byId.get(id)!;
+              return (
+                <li>
+                  <a href={url(`/patterns/${p.id}/`)}>{p.data.title}</a>
+                  <span class="pattern-type">{p.data.type}</span>
+                </li>
+              );
+            })}
+          </ol>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <h2>All patterns and their connections</h2>
+    {groups.map(({ cluster, patterns: members }) => (
+      <div class="area">
+        <h3><a href={url(`/patterns/clusters/${cluster.id}/`)}>{cluster.data.title}</a></h3>
+        <dl>
+          {members.map((p) => (
+            <>
+              <dt><a href={url(`/patterns/${p.id}/`)}>{p.data.title}</a></dt>
+              <dd>
+                {(relatedMap.get(p.id) ?? []).map((r, i) => (
+                  <>{i > 0 && ' · '}<a href={url(`/patterns/${r.id}/`)}>{r.data.title}</a></>
+                ))}
+              </dd>
+            </>
+          ))}
+        </dl>
+      </div>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  section { margin-top: 2.5rem; }
+  section > h2 { font-size: 1.4rem; }
+  .journeys {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    gap: 1rem;
+  }
+  .journey {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1.1rem 1.25rem;
+  }
+  .journey h3 { font-size: 1.05rem; margin-bottom: 0.35rem; }
+  .journey p { color: var(--color-muted); font-size: 0.9rem; margin-bottom: 0.75rem; }
+  .journey ol { margin: 0; padding-left: 1.25rem; }
+  .journey li { margin-bottom: 0.35rem; }
+  .journey li a { margin-right: 0.4rem; }
+  .area { margin-top: 1.75rem; }
+  .area h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+  .area h3 a { color: var(--color-text); }
+  dl { margin: 0; }
+  dt { font-weight: 600; margin-top: 0.75rem; }
+  dd { margin: 0.15rem 0 0; font-size: 0.85rem; color: var(--color-muted); }
+  dd a { color: var(--color-muted); text-decoration: underline; text-decoration-color: var(--color-border); text-underline-offset: 2px; }
+  dd a:hover { color: var(--color-accent); }
+</style>

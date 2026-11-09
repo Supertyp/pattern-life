@@ -9,6 +9,7 @@ appliesWhen:
   - the aim is a full, efficient load rather than running it half-empty
 authors: [Pattern Life team]
 published: 2026-11-10
+related: [knife-sharpening, cast-iron-care, non-stick-pan-care, mise-en-place]
 ---
 
 ## Summary
@@ -31,7 +32,7 @@ This pattern is for anyone who loads or unloads a household dishwasher. It descr
 
 This pattern suits everyday mixed loads of crockery, cutlery, glasses and cooking utensils.
 
-It does not suit items that should be hand-washed: sharp chef's knives (the edge dulls and the handles degrade), wooden boards and spoons, cast iron, non-stick pans not marked dishwasher-safe, crystal, insulated mugs and aluminium.
+It does not suit items that should be hand-washed: sharp chef's knives (the edge dulls and the handles degrade, see [Keeping knives sharp](../knife-sharpening/)), wooden boards and spoons, cast iron (see [Caring for cast iron](../cast-iron-care/)), non-stick pans not marked dishwasher-safe (see [Making non-stick pans last](../non-stick-pan-care/)), crystal, insulated mugs and aluminium.
 
 There's a trade-off with cutlery orientation. Eating-end up gets slightly better cleaning, while eating-end down is safer and more hygienic to unload. This pattern chooses safety and hygiene, but a household with a strong dishwasher and frequent residue problems may prefer eating-end up for forks and spoons, with knives always kept blade down.
 
