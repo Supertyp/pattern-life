@@ -38,6 +38,8 @@ There's a trade-off between holding the door for someone and keeping the lift mo
 
 ## Usage
 
+![Floor plan of an elevator seen from above, with the back wall at the top and the doors at the bottom. The back corners, back wall and side walls are good places to stand. The middle, the front corner and the button panel are for when it's busy or you're getting off soon. The door zone inside and the exit path outside should be kept clear, and people waiting on the landing stand beside the doors.](./diagrams/elevator-floor-plan.svg)
+
 **Waiting:** press the call button once, for the direction you want to travel. Stand to the side of the doors rather than in front of them, so people can get out in a straight line.
 
 **Getting in:** let the car empty, then step in and move to the back or into a corner. If you're getting off soon and it's crowded, stand near the door instead, and step out briefly at other floors to let people past.

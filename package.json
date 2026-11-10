@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev --host",
     "build": "astro build && pagefind --site dist",
-    "preview": "astro preview --host"
+    "preview": "astro preview --host",
+    "diagrams": "plantuml -tsvg \"src/content/patterns/diagrams/*.puml\""
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

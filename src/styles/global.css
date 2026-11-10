@@ -103,6 +103,14 @@ hr { border: none; border-top: 1px solid var(--color-border); margin: 2rem 0; }
 .prose ul, .prose ol { padding-left: 1.25rem; }
 .prose li { margin-bottom: 0.35rem; }
 .prose img { max-width: 100%; height: auto; border-radius: 6px; }
+/* Diagrams have a white background, so they stay readable in dark mode too. */
+.prose img[src$='.svg'] {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid var(--color-border);
+}
 .prose blockquote {
   margin: 1.25rem 0;
   padding: 0.75rem 1rem;

@@ -56,6 +56,20 @@ and where we left off. Keep it up to date at the end of each working session.
 - **Journeys:** `src/data/journeys.ts` holds real-life situations with an ordered list of pattern ids, shown on
   `/language/`. Unknown ids fail the build.
 
+## Diagrams (PlantUML)
+
+- The user wants diagrams written in **PlantUML**. Sources and rendered SVGs live side by side in
+  `src/content/patterns/diagrams/` (for example `elevator-floor-plan.puml` and `.svg`). **Commit both**, so the site build
+  and CI don't need Java.
+- Embed one in a pattern with a relative image and a descriptive alt text:
+  `![Alt text describing the diagram](./diagrams/<name>.svg)`. Astro copies it into `_astro/` with the base path.
+- Render with `npm run diagrams` (needs a `plantuml` command). Neither Java nor PlantUML is installed system-wide.
+  Last time, a portable JRE (Adoptium API, Java 21) and `plantuml.jar` (GitHub releases, v1.2026.9) were downloaded
+  to a scratch folder and run as `java -jar plantuml.jar -tsvg <file>.puml`.
+- Style used: `!pragma layout smetana` (no Graphviz needed), white background, rectangles laid out with hidden
+  links, and a colour legend (green `#DCEBDF` = good, amber `#F6E7C1` = conditional, red `#F4D3CF` = keep clear).
+  Diagrams sit on a white card in dark mode too (CSS rule `.prose img[src$='.svg']`).
+
 ## Site structure
 
 - `/`: home page with the "what is a pattern" intro, a CTA to the pattern language, life-area tiles and recently added patterns.
@@ -94,11 +108,14 @@ and where we left off. Keep it up to date at the end of each working session.
    (food temperatures follow Food Standards Australia New Zealand; driving advice is neutral about the side of
    the road; fitness advice is conservative).
 
+6. Added a PlantUML floor plan of where to stand to `elevator-etiquette` (the first diagram on the site).
+
 ## Where we left off / possible next steps
 
 - The user hasn't yet reviewed all 32 new patterns in detail. Expect corrections, and edit the markdown directly.
 - Ideas not yet done:
   - a visual network diagram of the pattern language
+  - more PlantUML diagrams (for example escalator, zip merge, parallel parking reference points, desk ergonomics)
   - filtering patterns by type
   - a "Download .md" button on pattern pages (rse-cep has one)
   - more patterns in thin areas (hiking, shared spaces)

@@ -1,0 +1,68 @@
+@startuml elevator-floor-plan
+' Floor plan of an elevator car seen from above: back wall at the top, doors at the bottom.
+' Rendered to elevator-floor-plan.svg with `npm run diagrams` (needs Java). Commit both files.
+!pragma layout smetana
+
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Helvetica
+skinparam defaultFontSize 13
+skinparam shadowing false
+skinparam roundCorner 6
+skinparam rectangle {
+  BorderColor #6E675D
+  FontColor #14120F
+}
+skinparam legend {
+  BackgroundColor #FAF8F4
+  BorderColor #E6E1D8
+}
+
+title Where to stand in an elevator (seen from above)
+
+rectangle "ELEVATOR CAR  (back wall at the top)" as car #FFFFFF {
+rectangle "<b>Back corner</b>\nGoing furthest?\nMove here first" as bl #DCEBDF
+rectangle "<b>Back wall</b>\nFill from the back,\nface the doors" as bc #DCEBDF
+rectangle "<b>Back corner</b>\nGoing furthest?\nMove here first" as br #DCEBDF
+
+rectangle "<b>Side wall</b>\nFill the sides next,\nbag in front of you" as ml #DCEBDF
+rectangle "<b>Middle</b>\nFill last,\nonly when busy" as mc #F6E7C1
+rectangle "<b>Side wall</b>\nFill the sides next,\nbag in front of you" as mr #DCEBDF
+
+rectangle "<b>Front corner</b>\nGetting off soon?\nStand here" as fl #F6E7C1
+rectangle "<b>Door zone</b>\nKeep clear. If you block it,\nstep out to let people leave" as fc #F4D3CF
+rectangle "<b>Button panel</b>\nNearest person presses\nfloors for others" as fr #F6E7C1
+}
+
+rectangle "DOORS  (open here)" as doors #E6E1D8
+
+rectangle "LANDING  (outside the elevator)" as landing #FAF8F4 {
+rectangle "<b>Wait here</b>\nbeside the doors" as wl #DCEBDF
+rectangle "<b>Exit path</b>\nleave it clear for\npeople getting out" as wc #F4D3CF
+rectangle "<b>Wait here</b>\nbeside the doors" as wr #DCEBDF
+}
+
+' Hidden links force the grid layout.
+bl -[hidden]right- bc
+bc -[hidden]right- br
+ml -[hidden]right- mc
+mc -[hidden]right- mr
+fl -[hidden]right- fc
+fc -[hidden]right- fr
+wl -[hidden]right- wc
+wc -[hidden]right- wr
+bl -[hidden]down- ml
+ml -[hidden]down- fl
+bc -[hidden]down- mc
+mc -[hidden]down- fc
+br -[hidden]down- mr
+mr -[hidden]down- fr
+fc -[hidden]down- doors
+doors -[hidden]down- wc
+
+legend bottom
+  <back:#DCEBDF>   </back> Good places to stand or wait
+  <back:#F6E7C1>   </back> Use if you're getting off soon, or when it's busy
+  <back:#F4D3CF>   </back> Keep clear so people can get in and out
+  Inside, fill the car from the back and sides first. Outside, let everyone out before you step in.
+endlegend
+@enduml
