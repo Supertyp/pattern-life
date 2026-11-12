@@ -15,7 +15,7 @@ Each pattern is a markdown file in `src/content/patterns/`. Copy the template be
 ```markdown
 ---
 title: Short, descriptive name
-type: process          # technique | process | preparation | safety | etiquette
+type: process          # technique | process | preparation | safety | etiquette | recipe
 cluster: kitchen       # id of a life area in src/content/clusters/
 problem: One sentence describing the recurring problem.
 appliesWhen:

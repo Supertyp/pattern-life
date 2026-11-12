@@ -8,7 +8,8 @@ import { z } from 'astro/zod';
 //   preparation — what to plan, check or bring before you start
 //   safety      — avoiding harm to yourself, others or equipment
 //   etiquette   — shared spaces and getting along with other people
-export const PATTERN_TYPES = ['technique', 'process', 'preparation', 'safety', 'etiquette'] as const;
+//   recipe      — applies several general patterns to one dish and says what is specific to it
+export const PATTERN_TYPES = ['technique', 'process', 'preparation', 'safety', 'etiquette', 'recipe'] as const;
 
 const patterns = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/patterns' }),

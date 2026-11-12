@@ -36,8 +36,12 @@ and where we left off. Keep it up to date at the end of each working session.
 - **Patterns:** `src/content/patterns/<id>.md`. The file name is the id and the URL `/patterns/<id>/`.
   - Frontmatter: `title`, `type`, `cluster`, `problem` (one sentence), `appliesWhen` (3 lowercase items),
     `authors` (default `[Pattern Life team]`), `editors`, `published`, `draft`, `related` (ids).
-  - Types: `technique | process | preparation | safety | etiquette`. "process" was added because the user's
+  - Types: `technique | process | preparation | safety | etiquette | recipe`. "process" was added because the user's
     sample pattern used it.
+  - **Recipe patterns** (type `recipe`, first one `bolognese`): the user's design. General patterns such as
+    `boiling-pasta` must **never mention a specific dish**. The recipe pattern links to them and says what's specific
+    to the dish, usually one table row per general pattern (e.g. "boil tagliatelle, not spaghetti"). The two-way
+    related links make the recipe show up on the general patterns automatically.
   - **Fixed body structure**, taken from the user's own sample `dishwasher-loading-unloading.md`, which is the
     gold standard:
     - `## Summary`: starts "This pattern is for … It describes …", then a `| Recommendation | Why? |` table
@@ -58,7 +62,8 @@ and where we left off. Keep it up to date at the end of each working session.
 - **Clusters (life areas):** `src/content/clusters/<id>.md` with `title` ("X patterns"), `framing` and `order`,
   plus a short body.
   - Current clusters: kitchen (1), outdoors "Hiking patterns" (2), city "City and traffic patterns" (3), travel (4),
-    conferences (5), office (6), shared-spaces (7), fitness (8), embroidery (9), home "Home and household patterns" (10).
+    conferences (5), office (6), shared-spaces (7), fitness (8), embroidery (9), home "Home and household patterns" (10),
+    dining "Table and dining patterns" (11).
 - **Cross-links:** inside a body, link with a relative path, `[Title](../other-id/)`, and/or list ids in `related`.
   - `getRelatedMap()` in `src/lib/patterns.ts` makes the links two-way and shows them as "Related patterns".
   - Unknown ids **fail the build** on purpose.
@@ -137,6 +142,9 @@ and where we left off. Keep it up to date at the end of each working session.
 3. Added the home life area with the user's own idea, `buying-socks` (identical sets, avoid "variety fraud").
 4. Opened external links in a new tab and added the "AIdea" badge (first used on the sock-replacement row).
 5. Renamed the "Pattern language" tab to "Journeys" (`/journeys/`) and moved the pattern-language explanation to the home page.
+6. Added a bolognese journey: the `recipe` type, a `dining` cluster and 8 patterns (`bolognese` plus the general
+   `boiling-pasta`, `saucing-pasta`, `simmering-sauces`, `dicing-vegetables`, `browning-meat`, `setting-the-table`
+   and `eating-pasta`).
 
 ## Where we left off / possible next steps
 

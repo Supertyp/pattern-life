@@ -25,6 +25,23 @@ export const journeys: Journey[] = [
     steps: ['knife-sharpening', 'non-stick-pan-care', 'cast-iron-care', 'dishwasher-loading-unloading'],
   },
   {
+    title: 'Cooking and eating a bolognese',
+    intro:
+      'A slow-cooked sauce, the right pasta and a set table. Start with the bolognese pattern: it explains how to apply each of the general patterns to this dish.',
+    steps: [
+      'bolognese',
+      'mise-en-place',
+      'dicing-vegetables',
+      'browning-meat',
+      'simmering-sauces',
+      'boiling-pasta',
+      'saucing-pasta',
+      'setting-the-table',
+      'eating-pasta',
+      'storing-leftovers',
+    ],
+  },
+  {
     title: 'A day hike',
     intro: 'Plan it at home, dress for it on the trail, and know when to turn back.',
     steps: ['day-hike-trip-plan', 'dress-in-layers', 'turnaround-time', 'warm-up'],
