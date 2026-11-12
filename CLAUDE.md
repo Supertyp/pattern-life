@@ -66,7 +66,7 @@ and where we left off. Keep it up to date at the end of each working session.
   plus a short body.
   - Current clusters: kitchen (1), outdoors "Hiking patterns" (2), city "City and traffic patterns" (3), travel (4),
     conferences (5), office (6), shared-spaces (7), fitness (8), embroidery (9), home "Home and household patterns" (10),
-    dining "Table and dining patterns" (11).
+    dining "Table and dining patterns" (11), notebooks "Jupyter notebook patterns for HASS" (12).
 - **Cross-links:** inside a body, link with a relative path, `[Title](../other-id/)`, and/or list ids in `related`.
   - `getRelatedMap()` in `src/lib/patterns.ts` makes the links two-way and shows them as "Related patterns".
   - Unknown ids **fail the build** on purpose.
@@ -166,6 +166,19 @@ sections above.
 9. **"Pattern language" tab renamed to "Journeys"** (`/journeys/`, and the old `/language/` redirects there).
    The explanation of the pattern language moved to the home page. The full list of connections stayed on the
    Journeys page (my call; the user was told and can move it).
+
+## Session 2026-11-13: Jupyter notebooks in HASS
+
+- New area `notebooks`, the first technical one: 17 patterns on using Jupyter notebooks in humanities, arts and social
+  sciences research. They serve two journeys in `journeys.ts`: "Exploring your own dataset with notebooks" (a HASS
+  researcher) and "Harvesting data from APIs with notebooks" (an RSE). Shared patterns such as provenance, pinned
+  environments, git, Binder and Zenodo appear in both journeys.
+- Drafted by 4 parallel subagents from a brief (kept only in the session scratchpad). Examples are Python-first with R
+  notes, and Trove (NLA) is the recurring API example.
+- These patterns may contain **one short fenced code block** in Usage. It's rendered by Shiki (github-dark), with
+  `.prose pre` styling in `global.css`. They run longer than everyday patterns (about 700 to 790 words).
+- glam-workbench.net blocks curl with a bot check, so references cite the GLAM Workbench GitHub repos instead.
+- The user hasn't reviewed these yet.
 
 ## Where we left off / possible next steps
 

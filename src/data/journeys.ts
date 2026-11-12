@@ -106,4 +106,40 @@ export const journeys: Journey[] = [
       'stitching-comfortably',
     ],
   },
+  {
+    title: 'Exploring your own dataset with notebooks',
+    intro:
+      'For a HASS researcher with a collection of texts, records or survey data: set up a project you can return to, explore it in notebooks that explain themselves, then share and archive the work so others can rerun and cite it.',
+    steps: [
+      'notebook-project-layout',
+      'raw-data-read-only',
+      'data-provenance-notes',
+      'sensitive-data-in-notebooks',
+      'notebook-as-narrative',
+      'sample-before-full-run',
+      'restart-and-run-all',
+      'pin-the-environment',
+      'notebooks-in-git',
+      'binder-ready-repository',
+      'archive-on-zenodo',
+    ],
+  },
+  {
+    title: 'Harvesting data from APIs with notebooks',
+    intro:
+      'For a research software engineer who uses notebooks as a serious part of a data pipeline: harvest from APIs safely and politely, keep the code reusable and tested, and publish the notebooks and data so that they keep working.',
+    steps: [
+      'api-keys-out-of-notebooks',
+      'polite-api-harvesting',
+      'resumable-api-harvests',
+      'data-provenance-notes',
+      'functions-out-of-notebooks',
+      'parameterised-notebooks',
+      'pin-the-environment',
+      'notebooks-in-git',
+      'test-notebooks-in-ci',
+      'binder-ready-repository',
+      'archive-on-zenodo',
+    ],
+  },
 ];

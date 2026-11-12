@@ -116,6 +116,18 @@ hr { border: none; border-top: 1px solid var(--color-border); margin: 2rem 0; }
   background: #fff;
   border: 1px solid var(--color-border);
 }
+.prose pre {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  background: var(--color-code);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  overflow-x: auto;
+  margin: 0 0 1.25rem;
+}
+.prose pre code { background: none; border: none; padding: 0; font-size: inherit; }
 .prose blockquote {
   margin: 1.25rem 0;
   padding: 0.75rem 1rem;
