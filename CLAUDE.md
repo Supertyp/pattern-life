@@ -94,6 +94,9 @@ and where we left off. Keep it up to date at the end of each working session.
   ERR_CONNECTION_RESET in the user's Windows browser.
 - `dev` and `preview` run with `--host` so the Windows browser can reach WSL. The local URL is
   http://localhost:4321/pattern-life/. If localhost fails, use the WSL IP that the preview prints.
+- Astro 7 renders Markdown with **Sätteri**, not remark/rehype: `markdown.rehypePlugins` doesn't work. Plugins go in
+  `satteri({ hastPlugins })` in `astro.config.mjs`, where one opens external links in a new tab (shown with ↗).
+  After changing Markdown plugins, delete `.astro/data-store.json` so the content is rendered again.
 - Search only works on a built site (`npm run build && npm run preview`), not in `npm run dev`.
 - Headless Chromium/Playwright can't run in this WSL environment (missing system libraries), so check pages with
   curl and by inspecting the built HTML in `dist/`.
