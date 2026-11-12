@@ -1,10 +1,11 @@
 ---
 import { url } from '../lib/url';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getClusterGroups, getPatterns } from '../lib/patterns';
+import { getClusterGroups, getPatterns, getRelatedMap } from '../lib/patterns';
 
-const groups = await getClusterGroups();
-const latest = (await getPatterns())
+const [patterns, groups, relatedMap] = await Promise.all([getPatterns(), getClusterGroups(), getRelatedMap()]);
+const linkCount = [...relatedMap.values()].reduce((n, r) => n + r.length, 0) / 2;
+const latest = [...patterns]
   .sort((a, b) => b.data.published.valueOf() - a.data.published.valueOf())
   .slice(0, 3);
 ---
@@ -28,12 +29,26 @@ const latest = (await getPatterns())
       recommendations and the reasons for them, the context it suits (and doesn't), how to do it, and references. That makes patterns quick to scan
       and easy to compare.
     </p>
+  </section>
+
+  <section class="about">
+    <h2>A pattern language</h2>
     <p>
-      Together the patterns form a <strong>pattern language</strong>: each one links to its neighbours, so you can
-      follow them through whole situations, like cooking a dinner, going to a conference or getting fitter.
+      Together the patterns form a <strong>pattern language</strong>: {patterns.length} patterns
+      across {groups.length} areas of life, joined by {linkCount} links. A single pattern solves a single problem, but real
+      situations involve several problems in a row: cooking dinner means preparing, cutting, cooking, storing and
+      cleaning up. The patterns are written to fit together, and each one points to its neighbours instead of
+      repeating them.
     </p>
+    <ul>
+      <li><strong>Start from a situation.</strong> Pick one of the <a href={url('/journeys/')}>journeys</a> and work through its patterns in order.</li>
+      <li><strong>Start from a problem.</strong> Search the <a href={url('/patterns/')}>pattern library</a>, read the problem and the "Applies when" list, and check it matches your situation.</li>
+      <li><strong>Follow the links.</strong> Every pattern ends with its related patterns. Following them is how you find the next useful habit.</li>
+      <li><strong>Adapt it.</strong> Each pattern names a trade-off. If your circumstances differ, make the other choice deliberately.</li>
+      <li><strong>Make it a habit.</strong> Pick one pattern, practise it for a week or two until it's automatic, then add the next.</li>
+    </ul>
     <p class="cta-row">
-      <a href={url('/language/')} class="cta">Start with the pattern language →</a>
+      <a href={url('/journeys/')} class="cta">Start with a journey →</a>
       <a href={url('/patterns/')} class="cta-secondary">Browse all patterns</a>
     </p>
   </section>
@@ -104,6 +119,8 @@ const latest = (await getPatterns())
   .area-grid a:hover { border-color: var(--color-accent); text-decoration: none; }
   .area-name { font-weight: 600; }
   .area-count { color: var(--color-muted); font-size: 0.85rem; }
+  .about ul { padding-left: 1.25rem; }
+  .about li { margin-bottom: 0.4rem; }
   .latest { list-style: none; margin: 0; padding: 0; }
   .latest li { display: flex; align-items: baseline; gap: 0.75rem; padding: 0.5rem 0; border-top: 1px solid var(--color-border); }
 </style>

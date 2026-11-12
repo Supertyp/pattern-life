@@ -11,33 +11,15 @@ for (const journey of journeys) {
     if (!byId.has(id)) throw new Error(`Journey "${journey.title}" refers to unknown pattern "${id}"`);
   }
 }
-const linkCount = [...relatedMap.values()].reduce((n, r) => n + r.length, 0) / 2;
 ---
-<BaseLayout title="Pattern language" description="How Pattern Life's patterns fit together, and where to start">
-  <h1>Pattern language</h1>
+<BaseLayout title="Journeys" description="Everyday situations and the patterns that help, in the order you'd use them">
+  <h1>Journeys</h1>
   <p class="lead">
-    {patterns.length} patterns across {groups.length} areas of life, joined by {linkCount} links. Use them on their own,
-    or follow them together as a language for handling everyday situations well.
+    Real situations involve several problems in a row. Each journey takes one everyday situation and lists the
+    patterns that help, in the order you'd use them.
   </p>
 
-  <section class="prose">
-    <h2>How to use this language</h2>
-    <p>
-      A single pattern solves a single problem. Real situations involve several problems in a row: cooking dinner means
-      preparing, cutting, cooking, storing and cleaning up. The patterns here are written to fit together, and each one
-      points to its neighbours instead of repeating them.
-    </p>
-    <ul>
-      <li><strong>Start from a situation.</strong> Pick one of the journeys below and work through its patterns in order.</li>
-      <li><strong>Start from a problem.</strong> Search the <a href={url('/patterns/')}>pattern library</a>, read the problem and the "Applies when" list, and check it matches your situation.</li>
-      <li><strong>Follow the links.</strong> Every pattern ends with its related patterns. Following them is how you find the next useful habit.</li>
-      <li><strong>Adapt it.</strong> Each pattern names a trade-off. If your circumstances differ, make the other choice deliberately.</li>
-      <li><strong>Make it a habit.</strong> Pick one pattern, practise it for a week or two until it's automatic, then add the next.</li>
-    </ul>
-  </section>
-
   <section>
-    <h2>Journeys</h2>
     <div class="journeys">
       {journeys.map((journey) => (
         <article class="journey">
@@ -82,7 +64,7 @@ const linkCount = [...relatedMap.values()].reduce((n, r) => n + r.length, 0) / 2
 </BaseLayout>
 
 <style>
-  section { margin-top: 2.5rem; }
+  section { margin-top: 2rem; }
   section > h2 { font-size: 1.4rem; }
   .journeys {
     display: grid;

@@ -20,6 +20,8 @@ export default defineConfig({
   site: 'https://supertyp.github.io',
   base: '/pattern-life',
   trailingSlash: 'always',
+  // The journeys page used to be the "Pattern language" page.
+  redirects: { '/language/': '/pattern-life/journeys/' },
   markdown: {
     processor: satteri({ hastPlugins: [externalLinksPlugin] }),
   },

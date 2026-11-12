@@ -1,6 +1,6 @@
 /**
  * Journeys: everyday situations, each with the patterns that help, in the order you'd use them.
- * Shown on the Pattern language page. Every id must be an existing pattern, or the build fails.
+ * Shown on the Journeys page (/journeys/). Every id must be an existing pattern, or the build fails.
  */
 export interface Journey {
   title: string;

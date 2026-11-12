@@ -63,7 +63,7 @@ and where we left off. Keep it up to date at the end of each working session.
   - `getRelatedMap()` in `src/lib/patterns.ts` makes the links two-way and shows them as "Related patterns".
   - Unknown ids **fail the build** on purpose.
 - **Journeys:** `src/data/journeys.ts` holds real-life situations with an ordered list of pattern ids, shown on
-  `/language/`. Unknown ids fail the build.
+  `/journeys/`. Unknown ids fail the build.
 
 ## Diagrams (PlantUML)
 
@@ -81,12 +81,15 @@ and where we left off. Keep it up to date at the end of each working session.
 
 ## Site structure
 
-- `/`: home page with the "what is a pattern" intro, a CTA to the pattern language, life-area tiles and recently added patterns.
+- `/`: home page with "What is a pattern?", "A pattern language" (stats, how to use it, CTA to journeys), life-area
+  tiles and recently added patterns.
 - `/patterns/`: search, intro with the type definitions, and patterns grouped by cluster. RSS at `/patterns/rss.xml`.
 - `/patterns/<id>/`: the pattern page (type badge, "Part of <cluster>", problem callout, Applies when, body,
   Related patterns, Credits).
 - `/patterns/clusters/` and `/patterns/clusters/<id>/`: the life areas.
-- `/language/`: the pattern language page (how to use it, 9 journeys, a full map of connections).
+- `/journeys/` (nav "Journeys"): the journey cards plus a full map of connections. It was the "Pattern language"
+  page at `/language/` until 2026-11-12. The how-to text moved to the home page, and `/language/` now redirects (see
+  `redirects` in `astro.config.mjs`, whose target must include the `/pattern-life` base).
 - `/principles/`, `/contribute/` (contains the pattern template), `/about/`: markdown pages using `PageLayout`.
 - Nav is defined in `src/layouts/BaseLayout.astro`.
 
@@ -133,6 +136,7 @@ and where we left off. Keep it up to date at the end of each working session.
    basics. Also added two embroidery journeys.
 3. Added the home life area with the user's own idea, `buying-socks` (identical sets, avoid "variety fraud").
 4. Opened external links in a new tab and added the "AIdea" badge (first used on the sock-replacement row).
+5. Renamed the "Pattern language" tab to "Journeys" (`/journeys/`) and moved the pattern-language explanation to the home page.
 
 ## Where we left off / possible next steps
 
