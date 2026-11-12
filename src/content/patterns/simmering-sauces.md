@@ -26,7 +26,7 @@ This pattern is for anyone who makes a sauce, stew, curry or stock that cooks fo
 
 ## Context
 
-This pattern suits tomato sauces, meat and vegetable sauces, stocks, stews, braises, soups and curries.
+This pattern suits tomato sauces, meat sauces such as a [bolognese](../bolognese/), vegetable sauces, stocks, stews, braises, soups and curries.
 
 It does not suit quick pan sauces, delicate fish or vegetables that fall apart with long cooking, or sauces thickened with egg or a lot of cream, which can split if they simmer for long.
 

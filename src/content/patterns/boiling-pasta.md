@@ -38,7 +38,7 @@ There's a trade-off between water and energy. A big pot of water takes longer to
 
 **Getting to al dente:** put the lid on to bring the water to the boil, then take it off once the pasta goes in so it doesn't boil over. Keep the water at a lively boil. Bite a piece a couple of minutes before the packet time. Al dente means tender, with a tiny firm core but no chalky white centre. If you'll finish the pasta in the pan with its sauce, drain it a minute earlier (see [Bringing pasta and sauce together](../saucing-pasta/)).
 
-**Choosing a shape:** spaghetti and linguine suit olive oil, garlic, seafood and smooth tomato sauces. Wide ribbons such as tagliatelle and pappardelle hold creamy or meaty sauces. Tubes and ridged shapes such as penne and rigatoni trap chunky sauces, twists such as fusilli catch pesto and finely chopped sauces, and tiny shapes belong in soup.
+**Choosing a shape:** spaghetti and linguine suit olive oil, garlic, seafood and smooth tomato sauces. Wide ribbons such as tagliatelle and pappardelle hold creamy or meaty sauces, such as a [bolognese](../bolognese/). Tubes and ridged shapes such as penne and rigatoni trap chunky sauces, twists such as fusilli catch pesto and finely chopped sauces, and tiny shapes belong in soup.
 
 **Fresh versus dried:** fresh egg pasta cooks in 2 to 4 minutes, so have the sauce ready before it goes in (see [Prepare before you cook](../mise-en-place/)). It's soft and absorbent, which suits butter and cream sauces and rich, slow-cooked ones (see [Slow-simmering a sauce](../simmering-sauces/)). Dried pasta is firmer and stands up to oil-based and robust sauces. Neither is better, they just suit different dishes.
 

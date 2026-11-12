@@ -39,9 +39,12 @@ and where we left off. Keep it up to date at the end of each working session.
   - Types: `technique | process | preparation | safety | etiquette | recipe`. "process" was added because the user's
     sample pattern used it.
   - **Recipe patterns** (type `recipe`, first one `bolognese`): the user's design. General patterns such as
-    `boiling-pasta` must **never mention a specific dish**. The recipe pattern links to them and says what's specific
-    to the dish, usually one table row per general pattern (e.g. "boil tagliatelle, not spaghetti"). The two-way
-    related links make the recipe show up on the general patterns automatically.
+    `boiling-pasta` are **about the skill, not about a dish**. The recipe pattern links to them and says what's
+    specific to the dish, usually one table row per general pattern (e.g. "boil tagliatelle, not spaghetti"). The
+    two-way related links make the recipe show up on the general patterns automatically.
+    A general pattern **may name a well-known dish as one passing example** and link to it (the user relaxed the
+    rule on 2026-11-12). `boiling-pasta` and `simmering-sauces` mention bolognese this way. Never build a general
+    pattern's advice around a dish.
   - **Fixed body structure**, taken from the user's own sample `dishwasher-loading-unloading.md`, which is the
     gold standard:
     - `## Summary`: starts "This pattern is for … It describes …", then a `| Recommendation | Why? |` table
@@ -130,33 +133,57 @@ and where we left off. Keep it up to date at the end of each working session.
 
 6. Added a PlantUML floor plan of where to stand to `elevator-etiquette` (the first diagram on the site).
 
-## History (2026-11-12)
+## Session 2026-11-12: decisions
 
-1. Cut every recommendations table to 4 or 5 rows and replaced the generic references with real, checked links.
-   Sources found some factual errors, now fixed: kerb distance, Smartraveller no longer registers trips, pasta needs
-   natural release, and knife angles.
-2. Added the embroidery life area with 15 patterns. Eight are bigger-picture patterns: materials, hooping,
-   transferring, starting and ending threads, managing thread, planning stitch order, finishing, and stitching
-   comfortably. Seven are stitches: back, stem, satin, French knot, long-and-short, lazy daisy and cross-stitch
-   basics. Also added two embroidery journeys.
-3. Added the home life area with the user's own idea, `buying-socks` (identical sets, avoid "variety fraud").
-4. Opened external links in a new tab and added the "AIdea" badge (first used on the sock-replacement row).
-5. Renamed the "Pattern language" tab to "Journeys" (`/journeys/`) and moved the pattern-language explanation to the home page.
-6. Added a bolognese journey: the `recipe` type, a `dining` cluster and 8 patterns (`bolognese` plus the general
-   `boiling-pasta`, `saucing-pasta`, `simmering-sauces`, `dicing-vegetables`, `browning-meat`, `setting-the-table`
-   and `eating-pasta`).
+These are the user's decisions from this session, with the reasons where they gave them. The details are in the
+sections above.
+
+**Pattern format**
+1. **3 to 6 recommendations per table**, ideally 4 or 5. The user felt tables were too long. Combine related rows and
+   move how-to detail into Usage. All existing tables were cut to 4 or 5 rows.
+2. **References are real, linkable sources**: blog posts, manufacturers' recommendations, YouTube videos and
+   official guidance, not "see your manual". Give 3 to 5 per pattern and check every URL. Checking them corrected some
+   facts: kerb distance, Smartraveller has no trip registration, pasta needs natural release, knife angles.
+3. **External links open in a new tab**, marked with ↗. Links within the site stay in the same tab (my call; the
+   user hasn't objected).
+4. **AIdea badge** for recommendations that are logical but not something a human would do. The idea came from the
+   user's wife, who spotted "replace the whole sock set at once". The badge is a violet pill in the cell corner,
+   linking to `/principles/#tested-in-practice`. So far only the socks row has one. **Open offer:** review all tables
+   and suggest more AIdea candidates for the user (and their wife) to decide on.
+
+**Content**
+5. **New area: embroidery**, with 15 patterns: 8 bigger-picture and 7 individual stitches. The user left the split to me
+   and asked for both fine-grained and big-picture patterns.
+6. **New area: home and household**, starting with the user's own `buying-socks` idea. "Variety fraud" is the user's
+   term and stays. Its third row was replaced at the user's request: collect single socks in one spot so they can be
+   rematched.
+7. **Recipe patterns** (new type `recipe`) and a bolognese journey. General patterns are about the skill. The recipe
+   pattern applies them to one dish (e.g. "tagliatelle, not spaghetti"). The user later allowed a well-known dish to
+   appear as a passing example in a general pattern.
+8. **New area: dining** ("Table and dining patterns") for setting the table and eating pasta.
+
+**Site structure**
+9. **"Pattern language" tab renamed to "Journeys"** (`/journeys/`, and the old `/language/` redirects there).
+   The explanation of the pattern language moved to the home page. The full list of connections stayed on the
+   Journeys page (my call; the user was told and can move it).
 
 ## Where we left off / possible next steps
 
-- The user hasn't yet reviewed all 32 new patterns in detail. Expect corrections, and edit the markdown directly.
-- Ideas not yet done:
+- The user hasn't reviewed all patterns in detail yet: the original 32, the 15 embroidery patterns or the 8 bolognese
+  ones. Expect corrections, and edit the markdown directly.
+- Offered and not yet answered:
+  - an AIdea review of all tables (suggest candidates; the user decides);
+  - stitch diagrams for the embroidery patterns, starting with French knot, stem and satin stitch (probably
+    hand-made SVG, since PlantUML is a poor fit for needle paths);
+  - a "Running the household" journey once the home area has more patterns (laundry, pantry, mending);
+  - more recipe patterns that reuse the general cooking patterns (e.g. a curry or stir-fry).
+- Other ideas not yet done:
   - a visual network diagram of the pattern language
-  - stitch diagrams for the embroidery patterns (a step-by-step needle path, possibly SVG rather than PlantUML)
   - more PlantUML diagrams (for example escalator, zip merge, parallel parking reference points, desk ergonomics)
   - filtering patterns by type
   - a "Download .md" button on pattern pages (rse-cep has one)
   - more patterns in thin areas (hiking, shared spaces)
-  - new areas (for example home and household, money, health, digital life)
+  - new areas (for example money, health, digital life)
   - a custom domain
 - When adding patterns, follow the format above, cross-link to existing ids, add them to a journey in
   `src/data/journeys.ts` where they fit, run `npm run build` to validate, then commit and push.
