@@ -20,7 +20,7 @@ This pattern is for anyone who buys socks for themselves or a household. It desc
 | --- | --- |
 | Buy at least two pairs of exactly the same sock, ideally five or more. | When one sock gets a hole or goes missing, its partner pairs with any other sock of the set instead of becoming an odd sock. |
 | Choose plain, identical socks with no left, right, day or number markings. | Any two socks make a pair, so you can grab two from the drawer without sorting or matching. |
-| Avoid "variety fraud": packs where every pair has a different colour, pattern or day of the week printed on it. | The pack looks like good value, but each sock has exactly one partner, so every hole or loss leaves an orphan, and every wash needs careful matching. |
+| Collect single socks in one set spot, such as a small basket next to the washing machine. | Missing socks usually turn up within a wash or two, in a sleeve, under the bed or in the next load, and can then be rematched instead of thrown away. |
 | Pick one style per purpose, such as black for work and grey for sport. | You still have the socks you need for different activities, and the styles are different enough to sort at a glance. |
 | Replace the whole set at once when it has worn out. | Older socks fade and stretch, so new ones mixed in won't quite match the old ones. |
 
@@ -34,9 +34,9 @@ There's a trade-off between variety and convenience. A drawer of identical socks
 
 ## Usage
 
-**Buying:** decide on one model you like, check that it fits and is comfortable, then buy several pairs at once from the same batch so the colour matches. If you are buying for a household, give each person a different style or colour so their socks are easy to tell apart. Avoid mixed multipacks, however cheap, and steer clear of socks with days of the week on them, which need to be matched up correctly and worn on the right day.
+**Buying:** decide on one model you like, check that it fits and is comfortable, then buy several pairs at once from the same batch so the colour matches. If you are buying for a household, give each person a different style or colour so their socks are easy to tell apart. Beware of "variety fraud": mixed multipacks where every pair has a different colour or pattern, and socks with days of the week on them, which need to be matched up correctly and worn on the right day. They look like good value, but every hole or lost sock leaves an orphan.
 
-**Washing and storing:** wash socks inside out and avoid high heat in the dryer, which makes them wear out and fade sooner. After the wash, drop them all loose into one drawer or basket; there's no need to pair or roll them. Pull two out each morning. Identical socks also make packing easier (see [Pack from a reusable list](../packing-list/)).
+**Washing and storing:** wash socks inside out and avoid high heat in the dryer, which makes them wear out and fade sooner. After the wash, drop them all loose into one drawer or basket; there's no need to pair or roll them. Pull two out each morning. Check the single-sock basket after each wash, and every few months throw out singles whose partner has clearly gone for good. Identical socks also make packing easier (see [Pack from a reusable list](../packing-list/)).
 
 **When a sock wears out:** throw away just that one sock and leave its partner in the set. Small holes can be darned, which extends the life of good wool socks. When the set starts to look faded or thin, buy a new set and retire the old one, perhaps keeping it for gardening or painting.
 
