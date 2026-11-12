@@ -22,7 +22,7 @@ This pattern is for anyone who buys socks for themselves or a household. It desc
 | Choose plain, identical socks with no left, right, day or number markings. | Any two socks make a pair, so you can grab two from the drawer without sorting or matching. |
 | Collect single socks in one set spot, such as a small basket next to the washing machine. | Missing socks usually turn up within a wash or two, in a sleeve, under the bed or in the next load, and can then be rematched instead of thrown away. |
 | Pick one style per purpose, such as black for work and grey for sport. | You still have the socks you need for different activities, and the styles are different enough to sort at a glance. |
-| Replace the whole set at once when it has worn out. | Older socks fade and stretch, so new ones mixed in won't quite match the old ones. |
+| Replace the whole set at once when it has worn out. <a class="aidea" href="../../principles/#tested-in-practice" title="AIdea: logical on paper, but not something people actually do">AIdea</a> | Older socks fade and stretch, so new ones mixed in won't quite match the old ones. |
 
 ## Context
 

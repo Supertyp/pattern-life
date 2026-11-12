@@ -49,6 +49,11 @@ and where we left off. Keep it up to date at the end of each working session.
       `- [Title](url), Publisher. One sentence.`. Use blog posts, manufacturers' sites, YouTube videos and official
       guidance, not generic "see your manual" lines. Check every URL before adding it (YouTube through its oEmbed
       endpoint), and never invent one.
+  - **AIdea badge:** the user asked for this after their wife spotted an AI-ish recommendation (throw out all old socks
+    when you buy a new set). Mark a recommendation that's logical on paper but not something people actually do by
+    adding this at the end of its first cell:
+    `<a class="aidea" href="../../principles/#tested-in-practice" title="AIdea: logical on paper, but not something people actually do">AIdea</a>`.
+    It renders as a small violet pill in the cell's corner (CSS in `global.css`), and `/principles/` explains it.
   - Length is about 400 to 650 words, written in the second person in a plain, friendly tone.
 - **Clusters (life areas):** `src/content/clusters/<id>.md` with `title` ("X patterns"), `framing` and `order`,
   plus a short body.
@@ -127,6 +132,7 @@ and where we left off. Keep it up to date at the end of each working session.
    comfortably. Seven are stitches: back, stem, satin, French knot, long-and-short, lazy daisy and cross-stitch
    basics. Also added two embroidery journeys.
 3. Added the home life area with the user's own idea, `buying-socks` (identical sets, avoid "variety fraud").
+4. Opened external links in a new tab and added the "AIdea" badge (first used on the sock-replacement row).
 
 ## Where we left off / possible next steps
 

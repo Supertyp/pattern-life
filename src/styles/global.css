@@ -28,6 +28,8 @@
   --font-display: "Inter Tight Variable", "Inter Tight", var(--font-sans);
   --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --content-width: 50rem;
+  --aidea-bg: #ece6f7;
+  --aidea-text: #5b3f8c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +42,8 @@
     --color-accent: #7cbf8b;
     --color-callout: #1c2a1f;
     --color-code: #23201b;
+    --aidea-bg: #2c2340;
+    --aidea-text: #c9b6f0;
   }
 }
 
@@ -135,3 +139,16 @@ hr { border: none; border-top: 1px solid var(--color-border); margin: 2rem 0; }
   border-bottom: 1px solid var(--color-border);
 }
 .prose th { font-weight: 600; border-bottom-width: 2px; }
+/* "AIdea" badge: marks a recommendation that's logical on paper but not something people actually do. */
+.prose td:has(.aidea) { position: relative; padding-top: 1.5rem; }
+.prose .aidea { position: absolute; top: 0.3rem; right: 0.4rem; text-decoration: none; }
+.aidea, .aidea-inline {
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  background: var(--aidea-bg);
+  color: var(--aidea-text);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: help;
+}

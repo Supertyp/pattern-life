@@ -12,6 +12,8 @@ A pattern describes a problem that many people meet again and again. "How to par
 
 Each solution should come from real experience. If a recommendation is only theory, say so.
 
+Patterns on this site are drafted with help from AI, and sometimes that produces advice that's perfectly logical on paper but isn't something a person would actually do, such as throwing out all your old socks the moment you buy a new set. Instead of hiding these, we mark them with an <span class="aidea-inline">AIdea</span> badge in the corner of the recommendation. Take them with a grain of salt, and [tell us](../contribute/) if you spot one we've missed.
+
 ## Context matters
 
 No solution works everywhere. Every pattern states when it **applies** and, just as importantly, when it does not.
