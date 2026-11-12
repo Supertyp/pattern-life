@@ -62,4 +62,31 @@ export const journeys: Journey[] = [
     intro: 'Start each session well, build up gradually and recover properly.',
     steps: ['warm-up', 'gradual-progression', 'rest-days', 'gym-etiquette'],
   },
+  {
+    title: 'Your first embroidery project',
+    intro: 'From choosing supplies to a finished hoop on the wall, using a handful of beginner-friendly stitches.',
+    steps: [
+      'embroidery-materials',
+      'transferring-designs',
+      'hooping-fabric',
+      'managing-thread',
+      'starting-and-ending-threads',
+      'back-stitch',
+      'french-knot',
+      'finishing-embroidery',
+    ],
+  },
+  {
+    title: 'Stitching a flower motif',
+    intro: 'Plan the order, then build the design from stems and leaves to shaded petals and knotted centres.',
+    steps: [
+      'planning-stitch-order',
+      'stem-stitch',
+      'lazy-daisy-stitch',
+      'satin-stitch',
+      'long-and-short-stitch',
+      'french-knot',
+      'stitching-comfortably',
+    ],
+  },
 ];

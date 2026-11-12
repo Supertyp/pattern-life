@@ -53,7 +53,7 @@ and where we left off. Keep it up to date at the end of each working session.
 - **Clusters (life areas):** `src/content/clusters/<id>.md` with `title` ("X patterns"), `framing` and `order`,
   plus a short body.
   - Current clusters: kitchen (1), outdoors "Hiking patterns" (2), city "City and traffic patterns" (3), travel (4),
-    conferences (5), office (6), shared-spaces (7), fitness (8).
+    conferences (5), office (6), shared-spaces (7), fitness (8), embroidery (9).
 - **Cross-links:** inside a body, link with a relative path, `[Title](../other-id/)`, and/or list ids in `related`.
   - `getRelatedMap()` in `src/lib/patterns.ts` makes the links two-way and shows them as "Related patterns".
   - Unknown ids **fail the build** on purpose.
@@ -114,11 +114,22 @@ and where we left off. Keep it up to date at the end of each working session.
 
 6. Added a PlantUML floor plan of where to stand to `elevator-etiquette` (the first diagram on the site).
 
+## History (2026-11-12)
+
+1. Cut every recommendations table to 4 or 5 rows and replaced the generic references with real, checked links.
+   Sources found some factual errors, now fixed: kerb distance, Smartraveller no longer registers trips, pasta needs
+   natural release, and knife angles.
+2. Added the embroidery life area with 15 patterns. Eight are bigger-picture patterns: materials, hooping,
+   transferring, starting and ending threads, managing thread, planning stitch order, finishing, and stitching
+   comfortably. Seven are stitches: back, stem, satin, French knot, long-and-short, lazy daisy and cross-stitch
+   basics. Also added two embroidery journeys.
+
 ## Where we left off / possible next steps
 
 - The user hasn't yet reviewed all 32 new patterns in detail. Expect corrections, and edit the markdown directly.
 - Ideas not yet done:
   - a visual network diagram of the pattern language
+  - stitch diagrams for the embroidery patterns (a step-by-step needle path, possibly SVG rather than PlantUML)
   - more PlantUML diagrams (for example escalator, zip merge, parallel parking reference points, desk ergonomics)
   - filtering patterns by type
   - a "Download .md" button on pattern pages (rse-cep has one)
