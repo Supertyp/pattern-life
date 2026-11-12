@@ -19,10 +19,8 @@ This pattern is for regular exercisers who want to keep improving. It describes 
 | Recommendation | Why? |
 | --- | --- |
 | Schedule at least one or two rest days a week in advance. | Your body adapts and gets stronger between sessions, not during them. Planning rest makes it harder to skip. |
-| Alternate hard and easy days. | Back-to-back hard sessions leave you tired for the second one and raise the risk of strain. |
-| Avoid training the same muscle groups hard on consecutive days. | Muscles typically need a day or two to recover from demanding work. |
-| Aim for enough sleep, which for most adults is seven to nine hours. | Sleep is when much of the repair happens, and short sleep makes training feel harder. |
-| Eat enough and drink enough, especially after longer or harder sessions. | Under-fuelling slows recovery and leaves you flat for the next session. |
+| Space out hard sessions, and give a muscle group a day or two before working it hard again. | Back-to-back hard sessions leave you tired for the second one and raise the risk of strain. |
+| Aim for seven to nine hours of sleep, with regular bed and wake times. | Sleep is when much of the repair happens, and short sleep makes training feel harder. |
 | Use active recovery on some rest days: walking, easy cycling, gentle swimming or mobility work. | Light movement can ease stiffness without adding training stress. |
 | Watch for warning signs and take extra rest when they appear. | Persistent fatigue, worse performance, poor sleep, low mood, frequent colds or a raised resting heart rate can mean you're overdoing it. |
 
@@ -36,9 +34,9 @@ There's a trade-off between rest and consistency. Too much rest and you lose mom
 
 ## Usage
 
-**Plan the week:** write your sessions down, hard ones spaced out, with rest days placed after the toughest sessions. Increase your overall load slowly, as described in [Increase training load gradually](../gradual-progression/).
+**Plan the week:** write your sessions down, alternating hard and easy days, with rest days placed after the toughest sessions. Increase your overall load slowly, as described in [Increase training load gradually](../gradual-progression/).
 
-**On rest days:** do something light if you feel like it, sleep well and eat normally. Don't make up for a rest day by doubling the next session.
+**On rest days:** do something light if you feel like it, sleep well, and eat and drink enough, especially after longer or harder sessions, because under-fuelling slows recovery. Don't make up for a rest day by doubling the next session.
 
 **Check in each morning:** if you feel unusually tired, heavy or sore, swap a hard session for an easy one or take the day off. Moving a session is better than forcing it.
 
@@ -46,4 +44,8 @@ There's a trade-off between rest and consistency. Too much rest and you lose mom
 
 ## References
 
-A physiotherapist, a sports doctor or an accredited exercise physiologist can advise on recovery for your situation. Your national health authority publishes general guidance on physical activity and sleep.
+- [Recommendations for adults (18 to 64 years)](https://www.health.gov.au/topics/physical-activity/24-hour-movement-guidelines-for-all-australians/recommendations-for-adults-18-to-64-years), Australian Government Department of Health, Disability and Ageing. The national guidelines, including 7 to 9 hours of good-quality sleep with consistent bed and wake times.
+- [Exercise safety](https://www.betterhealth.vic.gov.au/health/healthyliving/exercise-safety), Better Health Channel (Victorian Government). Recommends at least one recovery day a week, preferably two, and stopping exercise that causes pain.
+- [Are Exercise Recovery Days Important?](https://www.uhhospitals.org/blog/articles/2023/06/are-exercise-recovery-days-important), University Hospitals. A sports medicine doctor on planned rest, active recovery and the warning signs of overtraining.
+- [What Is overtraining syndrome—and how to avoid It](https://www.nike.com/au/a/what-is-overtraining-syndrome), Nike AU. Lists the signs of overtraining and recommends scheduling rest days in advance.
+- [The Importance of Active Recovery Days & Tips for Rest Days](https://www.youtube.com/watch?v=Bf6dNkiJYZc), OneStep Digital Physical Therapy (YouTube). A physical therapist on what to do on recovery days.

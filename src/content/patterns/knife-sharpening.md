@@ -19,12 +19,10 @@ This pattern is for anyone who cooks with their own knives. It describes a simpl
 | Recommendation | Why? |
 | --- | --- |
 | Hone the blade on a steel every few uses, or before each big cutting job. | Honing pushes the rolled-over edge back into line. It doesn't remove much metal, so you can do it often. |
-| Sharpen on a whetstone or a good sharpener when honing no longer brings the edge back. | Sharpening grinds a new edge. For most home cooks that's every few months, not every week. |
-| Keep a steady angle that matches the knife, usually about 15–20° per side. | A consistent angle gives a clean, even edge. Many Western knives sit near 20° and many Japanese knives near 15°, so check the maker's guidance. |
-| Test the edge by slicing a sheet of paper or a ripe tomato. | A sharp knife cuts cleanly with little pressure. Tearing or skidding tells you it's time to hone or sharpen. |
+| Sharpen on a whetstone or a good sharpener when honing no longer brings the edge back. | Sharpening grinds a new edge. For most home cooks that's every few months to once a year, not every week. |
+| Keep a steady angle that matches the knife, usually between about 10° and 20° per side. | A consistent angle gives a clean, even edge. Makers differ (Wüsthof uses 14°, or 10° for Asian-style blades, and Shun 16°), so check your maker's guidance. |
 | Cut on wood or plastic boards, never glass, stone or ceramic plates. | Hard surfaces roll and chip the edge in a few strokes. |
-| Hand-wash and dry knives straight after use. | Dishwashers dull edges and damage handles, and a loose knife in the sink is a hazard. |
-| Store knives in a block, on a magnetic strip or in edge guards. | Knives loose in a drawer knock against other metal and blunt each other, and they're dangerous to reach for. |
+| Hand-wash and dry knives straight after use, and store them in a block, on a magnetic strip or in edge guards. | Dishwashers and loose drawers knock the edge against other metal and blunt it, and a loose knife in the sink or drawer is dangerous to reach for. |
 
 ## Context
 
@@ -40,10 +38,12 @@ There's a trade-off between a whetstone and a pull-through sharpener. A whetston
 
 **Sharpening on a stone:** soak or wet the stone as its instructions say, coarse side up. Hold the angle and push the edge across the stone, working along the whole blade, until you can feel a small burr along the opposite side. Then do the same on the other side, switch to the fine side, and finish with a few light alternating strokes to remove the burr. Rinse and dry the knife.
 
-**Testing and cleaning up:** do the paper test, then wipe the blade carefully from spine to edge. Put the knife away straight after, not in the sink or dishwasher (see [Loading and unloading the dishwasher](../dishwasher-loading-unloading/) for what belongs there).
+**Testing and cleaning up:** slice a sheet of paper or a ripe tomato. A sharp knife cuts cleanly with little pressure; tearing or skidding means it needs more work. Then wipe the blade carefully from spine to edge. Put the knife away straight after, not in the sink or dishwasher (see [Loading and unloading the dishwasher](../dishwasher-loading-unloading/) for what belongs there).
 
 **Using the edge:** a sharp knife only stays safe if it's used well; see [Stable board, claw grip](../safe-cutting/) for how to hold food and board steady.
 
 ## References
 
-Your knife maker's care instructions give the right angle and sharpening method for that blade, and a professional knife sharpener can restore badly damaged edges.
+- [How To Sharpen Your WÜSTHOF Knives](https://wusthof.com/pages/how-to-sharpen-your-wusthof-knives), WÜSTHOF. The maker's guide to honing steels, whetstones and hand-held sharpeners, with its recommended angles.
+- [Sharpening & Honing are Not the Same](https://shun.kaiusa.com/sharpening-vs-honing), Shun Cutlery. Explains the difference between honing and sharpening and how often to do each.
+- [How to Sharpen a Knife on a Whetstone](https://www.youtube.com/watch?v=AFbjn0aUZAU), Serious Eats (YouTube). J. Kenji López-Alt demonstrates sharpening on a stone, from coarse to fine grit.

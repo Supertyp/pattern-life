@@ -18,13 +18,11 @@ This pattern is for home cooks who want calmer, more predictable cooking. It des
 
 | Recommendation | Why? |
 | --- | --- |
-| Read the whole recipe, start to finish, before you begin. | You'll spot marinating, resting or preheating times and steps that happen at the same time. |
-| Check you have every ingredient and piece of equipment. | It's far easier to change plans before you start than with a hot pan on the stove. |
-| Clear and wipe the bench, and empty the sink or dishwasher. | You need space to work and somewhere for dirty things to go. |
+| Read the whole recipe and check you have every ingredient and tool before you begin. | You'll spot marinating, resting or preheating times, and it's far easier to change plans before a pan is hot. |
 | Wash, peel, chop and measure everything before cooking. | Once the heat is on you only have to add things, not prepare them. |
-| Put prepared items in small bowls or on a plate, grouped by when they go in. | You can see at a glance what's next and that nothing has been forgotten. |
+| Group prepared items in small bowls or on a plate by when they go in. | You can see at a glance what's next and that nothing has been forgotten. |
 | Preheat the oven or pan while you finish the prep. | The heat is ready when you are, and the cooking times in the recipe hold true. |
-| Clean as you go. | A tidy space is safer to cut in, and there's less to face when the meal is over. |
+| Start with a clear bench and clean as you go. | A tidy space is safer to cut in, and there's less to face when the meal is over. |
 
 ## Context
 
@@ -36,7 +34,7 @@ There's a trade-off with washing-up. Lots of little bowls mean more dishes. You 
 
 ## Usage
 
-**Before you start:** read the recipe and note every time-dependent step. Lay out the ingredients and tools, and put away anything you check off so the bench stays clear.
+**Before you start:** read the recipe and note every time-dependent step. Clear and wipe the bench, and empty the sink or dishwasher so dirty things have somewhere to go. Lay out the ingredients and tools, and put away anything you check off so the bench stays clear.
 
 **Prepping:** set up a stable board (see [Stable board, claw grip](../safe-cutting/)) and work through the vegetables, then meat, so raw meat juices don't touch food that won't be cooked. Wash the board and knife between raw meat and other food. Measure liquids and spices into containers in the order they're used.
 
@@ -46,4 +44,6 @@ There's a trade-off with washing-up. Lots of little bowls mean more dishes. You 
 
 ## References
 
-Food Standards Australia New Zealand publishes advice on avoiding cross-contamination between raw and ready-to-eat foods, and most good general cookbooks describe mise en place in their introductory chapters.
+- [How Mise en Place Makes Cooking Easier](https://madeincookware.com/blogs/mise-en-place), Made In. Walks through reading the recipe, gathering tools and grouping prepped ingredients in the order they're used.
+- [Food safety basics](https://www.foodstandards.gov.au/consumer/prevention-of-foodborne-illness/food-safety-basics), Food Standards Australia New Zealand. Explains keeping raw meat separate from ready-to-eat food, including separate boards and knives.
+- [How to Mise en Place | Mad Delicious Tips](https://www.youtube.com/watch?v=6YBmc4A0jok), Cooking Light (YouTube). A chef demonstrates setting up mise en place the way professional kitchens do.

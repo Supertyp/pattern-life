@@ -18,12 +18,9 @@ This pattern is for anyone who packs for trips, from a weekend away to a long ho
 
 | Recommendation | Why? |
 | --- | --- |
-| Keep one master list in a notes app or document you can reach anywhere. | You only have to think it through once, and the list improves with every trip. |
-| Group the list by category: documents, clothes, toiletries, medication, electronics, extras. | Categories make gaps easy to spot and match the way you'll pack. |
+| Keep one master list, grouped by category (documents, clothes, toiletries, medication, electronics, extras), in a notes app or document you can reach anywhere. | You only have to think it through once, categories make gaps easy to spot, and the list improves with every trip. |
 | Copy and adapt the list for each trip, by climate, length and activity. | A beach week and a work conference need different things, but share a common core. |
-| Lay everything out before it goes in the bag. | You can see what you've got, spot duplicates and cut what you won't need. |
-| Pack the day before you leave. | You have time to wash, buy or charge what's missing without a last-minute rush. |
-| Roll soft clothes and fold stiff ones, and use packing cubes or bags to group items. | Rolling saves space and reduces creases in soft fabrics, and grouping keeps the bag organised as you unpack and repack. |
+| Pack the day before you leave, laying everything out before it goes in the bag. | You can spot duplicates and cut what you won't need, and still have time to wash, buy or charge what's missing. |
 | Weigh your bag and check the airline's or operator's limits. | Excess baggage fees are expensive, and repacking at the check-in desk is stressful. |
 | Tick items off the list again when you pack to go home. | Chargers, adaptors and things left in hotel drawers are the usual losses. |
 
@@ -39,12 +36,15 @@ There's a trade-off between packing light and being prepared. A list makes it ea
 
 **Building the list:** after your next trip, write down what you used, what you didn't, and what you wished you'd brought. That's your first master list.
 
-**Before each trip:** copy the list, check the weather and plans, and adjust. For changeable weather, plan clothes that combine well, see [Dress in layers](../dress-in-layers/). Mark which items go in your carry-on, see [Keep essentials in your carry-on](../carry-on-essentials/).
+**Before each trip:** copy the list, check the weather and plans, and adjust. For changeable weather, plan clothes that combine well, see [Dress in layers](../dress-in-layers/). Mark which items go in your carry-on, see [Keep essentials in your carry-on](../carry-on-essentials/). Keep passport, tickets, bookings and insurance at the top of the list, and make copies before you go, see [Back up your travel documents](../travel-document-backup/).
 
-**Documents:** keep passport, tickets, bookings and insurance at the top of the list, and make copies before you go, see [Back up your travel documents](../travel-document-backup/).
+**Packing the bag:** roll soft clothes and fold stiff ones. Rolling saves space and reduces creases in soft fabrics. Packing cubes or bags keep similar items together, so the bag stays organised as you unpack and repack.
 
 **After the trip:** update the master list straight away while you still remember what worked.
 
 ## References
 
-Your airline's or transport operator's website lists current baggage size and weight limits and items that are restricted or not allowed.
+- [Rick Steves' Packing List](https://www.ricksteves.com/travel-tips/packing-light/ricks-packing-list), Rick Steves' Europe. A ready-made master list grouped by category that you can copy and adapt.
+- [Packing Smart and Traveling Light](https://www.ricksteves.com/travel-tips/packing-light/packing-smart), Rick Steves' Europe. Advice on packing light, choosing versatile clothes and doing laundry on the road.
+- [Packing Light - Rick Steves' Europe Travel Guide - Travel Bite](https://www.youtube.com/watch?v=oz4Dt3jnB-c), Rick Steves' Europe. A five-minute video on fitting everything into one carry-on-sized bag.
+- [Checked baggage allowances](https://www.qantas.com/au/en/travel-info/baggage/checked-baggage.html), Qantas. An example of an airline's checked bag weight limits and excess baggage rules.

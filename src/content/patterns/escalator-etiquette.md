@@ -18,14 +18,11 @@ This pattern is for anyone who rides escalators in public places. It describes w
 
 | Recommendation | Why? |
 | --- | --- |
-| Stand on one side and leave the other free for people walking, following the local custom. | Which side is for standing differs between countries and even cities, so do what the signs and the people around you do. |
-| Follow any sign that asks everyone to stand still on both sides. | Some operators ask for this because walking causes falls and standing on both sides moves more people at busy times. |
+| Follow the local custom and the signs: stand on one side and leave the other free for walkers, unless signs ask everyone to stand still. | Which side is for standing differs between countries and even cities, and some operators ask everyone to stand because walking causes falls. |
 | Hold the handrail. | Escalators can stop suddenly, and the handrail is what keeps you upright when they do. |
-| Step on and off deliberately, and look down as you reach the comb plate. | Most escalator falls happen at the ends, where the steps flatten out. |
-| Move away from the exit as soon as you step off. | People behind you are still being carried forward and can't stop. |
-| Hold children's hands and keep them standing in the middle of the step, facing forward. | Small feet and soft shoes can be caught at the sides of the steps. |
-| Keep loose clothing, long scarves and shoelaces clear of the step edges. | They can get caught where the steps meet the sides or the comb plate. |
-| Use the lift for prams, wheelchairs and luggage trolleys where signs say so. | A heavy or wheeled load can roll backwards and knock over the people below you. |
+| Step on and off deliberately, looking down at the comb plate, and move away from the exit straight away. | Most escalator falls happen at the ends, and people behind you are still being carried forward and can't stop. |
+| Keep children holding your hand in the middle of the step, and keep loose clothing, scarves and shoelaces clear of the edges. | Small feet, soft shoes and loose fabric can be caught where the steps meet the sides or the comb plate. |
+| Use the lift for prams, wheelchairs and luggage trolleys. | A heavy or wheeled load can roll backwards and knock over the people below you. |
 
 ## Context
 
@@ -47,4 +44,7 @@ There's a trade-off between letting people walk past and moving the most people 
 
 ## References
 
-The signs at the escalator and the station or centre operator's instructions set the local rules, including which side to stand on and whether walking is allowed.
+- [Escalator and Moving Walk Safety Tips](https://www.otis.com/en/au/tools-resources/escalator-moving-walk-safety), Otis Australia. The manufacturer's advice on getting on, riding and getting off safely, including what not to take on an escalator.
+- [Escalator Etiquette Guide](https://www.kone.com.au/blogs/escalator-etiquette-guide.aspx), KONE Australia. A manufacturer's case for standing still, facing forward and holding the handrail rather than walking.
+- [Important Elevator & Escalator Safety Tips for Riders & Owners](https://ca.schindler.com/en/about-us/safety/tips-for-riders-and-owners.html), Schindler. Rider tips that include where to find and when to use the emergency stop button.
+- [Escalator Safety](https://www.youtube.com/watch?v=2X6A6l6m52s), TransperthOnline (YouTube). A short safety video from Perth's public transport operator.

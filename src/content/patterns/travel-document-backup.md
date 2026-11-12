@@ -18,14 +18,11 @@ This pattern is for anyone travelling overseas or on a long trip. It describes c
 
 | Recommendation | Why? |
 | --- | --- |
-| Check your passport's expiry date as soon as you start planning. | Many countries require it to be valid for several months beyond your stay, often six, and renewals can take weeks. |
-| Check visa and entry requirements early, using official sources. | Some visas take weeks to process, and rules change. |
-| Save scans or photos of your passport, visas, insurance, cards and bookings in secure cloud storage. | You can reach them from any device, even if your phone is lost. |
+| Check your passport's expiry date and your destination's visa and entry requirements, from official sources, as soon as you start planning. | Many countries require your passport to be valid for several months beyond your stay, often six, and renewals and visas can take weeks. |
+| Save scans or photos of your passport, visas, insurance, cards and bookings in a secure cloud account you can open without your phone. | You can reach them from any device, even if your phone is lost or stolen. |
 | Carry a paper copy of your passport's photo page, stored separately from the passport. | It speeds up getting a replacement and works when your phone is flat. |
 | Share your itinerary and copies with someone you trust at home. | They can help if you lose everything, and they know where to expect you. |
 | Write down your travel insurance policy number and emergency phone line, your bank's card-cancellation number and local emergency numbers. | In a crisis you won't want to search for them. |
-| Register your trip with your government's travel advisory service if it offers one. | They can contact you in an emergency and you'll get updated safety advice. |
-| Use two-factor authentication on your cloud and email accounts, with a backup method that doesn't rely on your phone. | Your copies are only useful if you can get into your account after losing your phone. |
 
 ## Context
 
@@ -39,7 +36,7 @@ There's a trade-off between convenience and security. Copies of your passport ar
 
 **When you book:** check passport validity, visas and any vaccination requirements. Add the documents to your [packing list](../packing-list/).
 
-**A week before:** make the scans and paper copies, share your itinerary, and register with your government's travel advisory service. In Australia this is Smartraveller. Sharing your plans works the same way as leaving a [trip plan](../day-hike-trip-plan/) for a hike.
+**A week before:** make the scans and paper copies and share your itinerary. Turn on two-factor authentication for your cloud and email accounts, with a backup method that doesn't rely on your phone, so you can still get in after losing it. Subscribe to your government's travel advice for your destination (in Australia, Smartraveller), so you hear when safety advice or entry rules change. Sharing your plans works the same way as leaving a [trip plan](../day-hike-trip-plan/) for a hike.
 
 **While travelling:** keep originals in your carry-on or on you, see [Keep essentials in your carry-on](../carry-on-essentials/), and the paper copy somewhere else, such as your checked bag or hotel safe.
 
@@ -47,4 +44,7 @@ There's a trade-off between convenience and security. Copies of your passport ar
 
 ## References
 
-Your country's passport office and foreign affairs department (in Australia, Smartraveller) give official advice on passports, entry requirements and getting help overseas. The embassy of the country you're visiting has its official entry rules, and your insurer explains what to do after a loss.
+- [Top 10 travel tips](https://www.smartraveller.gov.au/news-and-updates/top-10-travel-tips), Smartraveller. Official Australian advice, including checking passport validity, making copies of your documents and leaving your itinerary with someone at home.
+- [What you need to know before travelling overseas](https://www.smartraveller.gov.au/travel-essentials/essentials-checklist), Smartraveller. The essentials checklist, covering documents, copies, hard-copy bookings and contact lists.
+- [Do you have valid travel documents](https://www.smartraveller.gov.au/news-and-updates/do-you-have-valid-travel-documents), Smartraveller. Explains passport validity rules and what to do if you need a passport urgently.
+- [Australian Passport Office](https://www.passports.gov.au/), Department of Foreign Affairs and Trade. Where Australians renew passports and report one lost or stolen.

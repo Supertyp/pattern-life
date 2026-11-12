@@ -20,12 +20,9 @@ This pattern is for drivers, riders and cyclists approaching a lane closure or l
 | --- | --- |
 | In slow or queuing traffic, use both lanes up to the merge point. | Using both lanes shortens the queue and makes merging at the point where the lane ends predictable for everyone. |
 | Take turns at the merge point, one vehicle from each lane. | It's fair, it's easy to understand and it keeps both lanes moving. |
-| Indicate early. | Others can see what you plan to do and leave a gap. |
-| Match the speed of the lane you're joining. | Merging at a very different speed forces others to brake hard. |
+| Indicate early and merge at the speed of the lane you're joining. | Others can see what you plan to do and leave a gap, and nobody has to brake hard. |
 | Leave a gap for the car in front of you to merge into. | One car's worth of space keeps the zip working, and a [three-second gap](../three-second-gap/) in flowing traffic makes it easy. |
 | Don't block the ending lane or speed up to close a gap. | It's unsafe, it may be illegal, and it slows down the whole queue. |
-| When traffic is flowing freely, merge early where it's safe. | At speed, there's more room to merge smoothly before the lane ends. |
-| Check your local road rules. | Who gives way at a merge differs between countries and situations, and signs at a particular merge override general habits. |
 
 ## Context
 
@@ -37,12 +34,17 @@ There's a trade-off between perceived fairness and efficiency. Many drivers feel
 
 ## Usage
 
-**Approaching:** watch for signs, indicate, and stay in your lane. Keep a steady gap rather than creeping up to the car ahead. If the merge is near your destination, knowing where you'll park saves last-second lane changes, see [Park before you arrive](../city-parking-before-destination/).
+**Approaching:** watch for signs, indicate, and stay in your lane. If traffic is flowing freely, merge early where it's safe instead, because at speed there's more room to merge smoothly before the lane ends. Keep a steady gap rather than creeping up to the car ahead. If the merge is near your destination, knowing where you'll park saves last-second lane changes, see [Park before you arrive](../city-parking-before-destination/).
 
 **At the merge point:** look for the driver you'll follow, let one vehicle go ahead of you or move in after one, and keep the rhythm going. A wave of thanks helps.
+
+**Know the local rule:** who gives way at a merge differs between countries and situations, and signs at a particular merge override general habits. In Australia, for example, if your marked lane ends you must give way to traffic already in the lane you're moving into, while where two lines of traffic merge with no lane line, the vehicle ahead goes first. Either way, taking turns works because drivers in the continuing lane leave gaps.
 
 **If someone doesn't take turns:** let it go. Arguing at low speed only causes bumps. Your aim is to get through calmly, not to win.
 
 ## References
 
-Your national or state road rules and driver's handbook explain who must give way at merges and lane ends where you drive.
+- [How to safely merge lanes in Australia](https://www.mynrma.com.au/open-road/advice-and-how-to/driving/the-dos-and-donts-of-merging), NRMA. Who gives way when lanes end, how zip merging works where there are no lane lines, and merging etiquette.
+- [Changing lanes and merging](https://www.qld.gov.au/transport/safety/rules/road/lanes), Queensland Government. The official Queensland rules for changing lanes, lanes ending and lines of traffic merging.
+- [Zipper Merge Demonstration](https://www.youtube.com/watch?v=cX0I8OdK7Tk), Alberta Motor Association (YouTube). A demonstration of how a late, alternating merge keeps both lanes moving.
+- [Why Traffic Scientists Want You to Cut People Off](https://www.youtube.com/watch?v=mmSTSj_OMpA), Half as Interesting (YouTube). An explainer on why late merging shortens queues even though it feels like queue jumping.

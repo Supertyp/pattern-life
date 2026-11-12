@@ -34,6 +34,8 @@ This pattern is for <who>. It describes <what the pattern covers>.
 | --- | --- |
 | What to do. | The reason it works. |
 
+<!-- 3 to 6 recommendations. Combine related ones, and move how-to detail to Usage. -->
+
 ## Context
 
 This pattern suits <situations>.
@@ -50,5 +52,7 @@ There's a trade-off with <...>. <Explain the choice this pattern makes.>
 
 ## References
 
-<Where to find more detail, such as a manual or official guidance.>
+- [Page or video title](https://example.com/), Publisher or channel. What it covers.
+
+<!-- 3 to 5 real sources people can open: manufacturer pages, blog posts, YouTube videos, official guidance. -->
 ```

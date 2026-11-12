@@ -18,11 +18,9 @@ This pattern is for anyone who cooks rice in an electric rice cooker. It describ
 
 | Recommendation | Why? |
 | --- | --- |
-| Rinse the rice in a bowl of cold water, swirling and draining two or three times, until the water runs mostly clear. | Rinsing removes loose surface starch, which otherwise makes rice gluey. |
-| Measure with the cup that came with the cooker. | It's usually smaller than a standard 250 ml cup, and the water lines in the bowl are based on it. |
-| Use the water line for your type of rice, and check the packet. | Brown, white, sushi and other rices absorb different amounts of water. |
-| Leave the lid closed for about 10 minutes after the cooker switches to warm. | The grains finish absorbing moisture and firm up, so they're less likely to break. |
-| Fluff the rice gently with a paddle, cutting and folding rather than stirring. | Excess steam escapes and the grains separate. |
+| Measure with the cooker's own cup and fill to the water line for your type of rice. | The cup is usually about 180 ml, smaller than a standard cup, and the water lines in the bowl are based on it. |
+| Rinse the rice in cold water two or three times, until the water runs mostly clear. | Rinsing removes loose surface starch, which otherwise makes rice gluey. |
+| Leave the lid closed for about 10 minutes after the cooker switches to warm, then fluff gently with a paddle. | The grains finish absorbing moisture and firm up, and cutting and folding lets steam escape without breaking them. |
 | Don't leave rice on keep-warm all day. | It dries out and discolours, and if the temperature drops it's no longer safely hot. |
 | Cool leftover rice quickly and refrigerate it, ideally within an hour. | Cooked rice can carry spores of *Bacillus cereus*, which survive cooking and can multiply at room temperature. |
 
@@ -36,7 +34,7 @@ There's a trade-off with rinsing. It gives fluffier, more separate grains but us
 
 ## Usage
 
-**Preparing:** measure the rice with the cooker's cup, rinse it in the inner bowl or a separate bowl, and drain well. Fill to the matching water line on a level bench. If you're making a full meal, start the rice first; [Prepare before you cook](../mise-en-place/) helps with the timing.
+**Preparing:** measure the rice with the cooker's cup, rinse it in the inner bowl or a separate bowl, and drain well. Fill to the matching water line on a level bench, and check the packet too, since brown, white, sushi and other rices absorb different amounts of water. If you're making a full meal, start the rice first; [Prepare before you cook](../mise-en-place/) helps with the timing.
 
 **Cooking and resting:** close the lid and start the cooker. When it clicks to warm, leave it closed for about 10 minutes, then fluff and serve. Keep-warm is fine for serving over an hour or two, not for the whole day.
 
@@ -46,4 +44,7 @@ There's a trade-off with rinsing. It gives fluffier, more separate grains but us
 
 ## References
 
-Your rice cooker's manual explains its cup size, water lines and keep-warm settings, and Food Standards Australia New Zealand publishes advice on handling cooked rice and other leftovers safely.
+- [How to Cook Rice in a Rice Cooker](https://www.justonecookbook.com/how-to-make-rice/), Just One Cookbook. Step-by-step guide to rinsing, the rice cooker cup, the water lines, resting for 10 minutes and fluffing.
+- [Here's how to keep it going. (Maintenance)](https://store.zojirushi.com/blogs/rice-cookers/here-s-how-to-keep-it-going-maintenance), Zojirushi. The manufacturer's advice on cleaning the inner pot, lid and steam vent.
+- [How to Cook Rice in a Zojirushi Rice Cooker](https://www.youtube.com/watch?v=hMvxeiZ4MoI), Zojirushi America Corporation (YouTube). Shows measuring with the supplied cup, filling to the water line and choosing the right setting.
+- [Leftovers](https://www.foodauthority.nsw.gov.au/consumer/food-extra-care/leftovers), NSW Food Authority. Says to refrigerate leftovers within 2 hours, eat cooked rice within 2 days and reheat it only once.

@@ -41,10 +41,14 @@ and where we left off. Keep it up to date at the end of each working session.
   - **Fixed body structure**, taken from the user's own sample `dishwasher-loading-unloading.md`, which is the
     gold standard:
     - `## Summary`: starts "This pattern is for … It describes …", then a `| Recommendation | Why? |` table
-      with 5 to 9 rows.
+      with 3 to 6 rows (the user asked for this on 2026-11-12;
+      combine related rows and move how-to detail into Usage).
     - `## Context`: "This pattern suits …", "It does not suit …", "There's a trade-off …".
     - `## Usage`: 2 to 4 paragraphs, each starting with a **Bold label:**.
-    - `## References`: one or two sentences naming authoritative sources, with no URLs and nothing invented.
+    - `## References`: a bullet list of 3 to 5 real, linkable sources, formatted
+      `- [Title](url), Publisher. One sentence.`. Use blog posts, manufacturers' sites, YouTube videos and official
+      guidance, not generic "see your manual" lines. Check every URL before adding it (YouTube through its oEmbed
+      endpoint), and never invent one.
   - Length is about 400 to 650 words, written in the second person in a plain, friendly tone.
 - **Clusters (life areas):** `src/content/clusters/<id>.md` with `title` ("X patterns"), `framing` and `order`,
   plus a short body.

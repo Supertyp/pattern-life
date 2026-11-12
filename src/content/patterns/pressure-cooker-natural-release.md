@@ -18,10 +18,9 @@ This pattern is for anyone who cooks with a pressure cooker. It describes how an
 
 | Recommendation | Why? |
 | --- | --- |
-| Let the pressure drop on its own for 10 to 15 minutes before touching the valve. | Food keeps cooking gently as the temperature falls, and meat fibres relax instead of tightening up. |
-| Count the release time as part of the recipe's total time. | Most recipes assume natural release, so skipping it leaves food underdone or tough. |
-| Use natural release for anything starchy or foamy, such as beans, grains, porridge and stock. | A quick release makes the liquid boil up and spray starchy foam out of the valve. |
-| Use quick release only for food that overcooks easily, such as green vegetables, seafood and pasta. | These need cooking to stop the moment the time is up. |
+| Let the pressure drop on its own for 10 to 15 minutes before touching the valve, and count this as part of the recipe's time. | Food keeps cooking gently as the temperature falls, meat fibres relax, and most recipes assume this wait. |
+| Always use natural release for starchy, foamy or expanding food such as beans, grains, pasta, porridge and stock. | A quick release makes the liquid boil up and spray starchy foam out of the valve. |
+| Use quick release only for food that overcooks easily, such as green vegetables and seafood. | These need cooking to stop the moment the time is up. |
 | Turn the valve with a long spoon, and keep your hands and face away from it. | The remaining steam is hot enough to scald. |
 | Open the lid only once the float valve has dropped, and tilt it away from you. | The lid lock is a safety feature, and the steam trapped under the lid escapes towards the far side. |
 
@@ -43,4 +42,6 @@ There's a trade-off between time and texture. A full natural release can take 20
 
 ## References
 
-Your pressure cooker's manual is the best source for its valve positions, maximum fill line and recommended release method for each type of food.
+- [Frequently Asked Questions](https://instantpot.com/pages/frequently-asked-questions), Instant Pot. The manufacturer explains natural and quick release, which foods not to quick release, and never forcing the lid open.
+- [Instant Pot Natural Release vs. Quick Release](https://pressurecookrecipes.com/pressure-release-natural-quick-release/), Pressure Cook Recipes. A detailed guide to when to use each method, the 10 to 15 minute partial release, and waiting for the float valve.
+- [Instant Pot Natural Release vs Quick Release + BONUS Tips](https://www.youtube.com/watch?v=SENVPH4OWNk), Amy & Jacky (YouTube). Shows each release method on an electric pressure cooker and when to use it.

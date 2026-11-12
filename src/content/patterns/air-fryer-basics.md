@@ -19,10 +19,8 @@ This pattern is for anyone who uses a countertop air fryer. It describes how to 
 | Recommendation | Why? |
 | --- | --- |
 | Preheat for 3 to 5 minutes, unless your manual says not to. | Food that goes into a hot basket starts browning straight away instead of steaming. |
-| Cook in a single layer, with gaps between pieces. | An air fryer is a small fan oven. Air needs to move around each piece to crisp it. |
-| Cook in batches rather than overcrowding. | A packed basket steams the food, and the pieces in the middle stay soft. |
+| Cook in a single layer with gaps between pieces, in batches if needed. | An air fryer is a small fan oven. Air needs to move around each piece to crisp it, and a packed basket steams the food. |
 | Shake the basket or turn the food halfway through. | The side facing the element browns faster, and turning evens it out. |
-| Toss fresh food in a teaspoon or two of oil. | A thin coating helps browning and crisping. Frozen pre-fried food usually needs none. |
 | Converting an oven recipe, lower the temperature by about 20 °C and cut the time by about 20%, then check early. | The fan and small chamber cook faster than a conventional oven. |
 | Never put baking paper or foil in without food on top to hold it down, and keep the vents clear. | Loose paper can blow into the element and scorch or catch fire, and blocked vents overheat the unit. |
 
@@ -38,7 +36,7 @@ There's a trade-off between capacity and crispness. Filling the basket feels eff
 
 **Setting up:** stand the air fryer on a heat-resistant, stable surface with space around the vents as the manual describes, away from walls and cupboards. Preheat while you prepare the food.
 
-**Cooking:** pat fresh food dry, toss with a little oil and seasoning and lay it in one layer. Shake or turn halfway. Check meat and poultry with a thermometer rather than trusting the timer, because small pieces cook quickly on the outside; see [Cook by temperature, not time](../cook-by-temperature/).
+**Cooking:** pat fresh food dry, toss it in a teaspoon or two of oil and some seasoning, and lay it in one layer. The thin coating helps browning; frozen pre-fried food usually needs no oil at all. Shake or turn halfway. Check meat and poultry with a thermometer rather than trusting the timer, because small pieces cook quickly on the outside; see [Cook by temperature, not time](../cook-by-temperature/).
 
 **Reheating:** leftovers crisp up well at around 160 to 180 °C for a few minutes, but they still need to be steaming hot all the way through; see [Cooling and storing leftovers](../storing-leftovers/).
 
@@ -46,4 +44,7 @@ There's a trade-off between capacity and crispness. Filling the basket feels eff
 
 ## References
 
-Your air fryer's manual is the best guide to preheating, maximum fill levels, safe accessories and cleaning for that model.
+- [10 common air fryer mistakes you might be making](https://www.choice.com.au/home-and-living/kitchen/benchtop-cooking/articles/common-air-fryer-mistakes), CHOICE. Covers preheating, overfilling, shaking, oil and patting food dry.
+- [Avoid this air fryer mistake to prevent disaster](https://www.choice.com.au/home-and-living/kitchen/benchtop-cooking/articles/air-fryer-kitchen-mistakes), CHOICE. Explains how much clear space an air fryer needs around it to avoid scorching or fire.
+- [6 tips to get the best from your air fryer](https://www.consumer.org.nz/home-and-living/kitchen/air-fryers/6-tips-to-get-the-best-from-your-air-fryer), Consumer NZ. Short tips on ventilation, preheating, oil, batches and cleaning.
+- [50+ Air Fryers Later. Here's What I've Learned](https://www.youtube.com/watch?v=fA3MUzlZmBY), Candid Clara (YouTube). A reviewer's practical lessons on better results, avoiding damage and safety.

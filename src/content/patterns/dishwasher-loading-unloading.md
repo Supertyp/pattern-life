@@ -20,13 +20,9 @@ This pattern is for anyone who loads or unloads a household dishwasher. It descr
 | --- | --- |
 | Fill each rack from back to front. | You never have to reach over items you've already loaded, which reduces knocking things over and getting splashed. |
 | Put knives in the cutlery basket blade down, and the rest of the cutlery eating-end down as well. | Nobody grabs a blade when reaching in, and when unloading you hold every piece by the handle, so clean surfaces aren't touched. |
-| Mix forks, spoons and knives in each basket compartment. | Spoons of the same kind nest together and water can't reach between them. |
 | Scrape food off, but don't pre-rinse. | Modern detergents use enzymes that work on food residue, and pre-rinsing wastes water and time. |
-| Face the dirty side of plates and bowls toward the centre and the spray arms. | Water reaches the surfaces that actually need cleaning. |
-| Put tall items at the sides or back of the bottom rack, and check the spray arms can turn freely. | A blocked spray arm or detergent door leaves the whole load half-washed. |
-| Put plastics and glasses on the top rack. | The heating element is at the bottom, and heat warps plastic and stresses glass. |
+| Face the dirty side of plates and bowls toward the centre, and put tall items at the sides or back so the spray arms can turn freely. | Water reaches the surfaces that actually need cleaning, and a blocked spray arm or detergent door leaves the whole load half-washed. |
 | Unload the bottom rack first. | Water pools on upturned cups and bowls in the top rack, and pulling those out first drips it onto the clean, dry dishes below. |
-| Clean the filter about once a month. | A clogged filter causes gritty residue, bad smells and poorer washing. |
 
 ## Context
 
@@ -38,10 +34,15 @@ There's a trade-off with cutlery orientation. Eating-end up gets slightly better
 
 ## Usage
 
-**Loading:** start with the bottom rack, back to front, then the top rack, back to front, then cutlery. Run it when it's full, not before.
+**Loading:** start with the bottom rack, back to front, then the top rack, back to front, then cutlery. Put plastics and glasses on the top rack, because the heating element is at the bottom and heat warps plastic and stresses glass. Mix forks, spoons and knives in each basket compartment, since spoons of the same kind nest together and water can't reach between them. Run it when it's full, not before.
 
 **Unloading:** open the door a crack after the cycle and let it stand for 10 to 20 minutes so steam escapes and things dry. Then empty the bottom rack, then the cutlery, then the top rack.
 
+**Looking after it:** clean the filter about once a month. A clogged filter causes gritty residue, bad smells and poorer washing. Your manual shows where the filter sits and how it comes out.
+
 ## References
 
-Your dishwasher's manual is the best source for its own rack layout, spray-arm positions and filter-cleaning steps.
+- [How to load your dishwasher the right way](https://www.choice.com.au/home-and-living/kitchen/dishwashers/articles/how-to-load-a-dishwasher), CHOICE. Scraping rather than rinsing, cutlery placement, angling plates toward the spray arms and plastics on top.
+- [How to Properly Load Your Bosch Dishwasher](https://www.bosch-home.com.au/experience-bosch/living-with-bosch/fresh-reads/how-to-load-your-bosch-dishwasher-the-right-way), Bosch Home Appliances. A manufacturer's guide to what goes in which basket and keeping the spray arms clear.
+- [How to Load a Dishwasher | Consumer Reports](https://www.youtube.com/watch?v=BbijOt6Iozw), Consumer Reports (YouTube). Step-by-step loading instructions from an independent testing organisation.
+- [How To Load A Dishwasher: Bosch Dishwasher Tip #1](https://www.youtube.com/watch?v=J8ibae45Yw8), Bosch USA (YouTube). A short demonstration of loading each rack.

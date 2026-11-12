@@ -18,13 +18,11 @@ This pattern is for drivers and motorcycle riders. It describes measuring your f
 
 | Recommendation | Why? |
 | --- | --- |
-| Keep at least three seconds behind the vehicle in front. | It takes time to notice a hazard, move your foot and brake, and three seconds gives a reasonable margin in good conditions. |
-| Count from a fixed point: when the vehicle ahead passes a sign or shadow, count "one thousand and one, one thousand and two, one thousand and three". | If you reach the point before you finish counting, you're too close. |
+| Keep at least three seconds behind the vehicle in front, counted from a fixed point. | It takes time to notice a hazard, move your foot and brake, and three seconds gives a reasonable margin in good conditions. |
 | Double the gap in rain, at night, in fog or when towing. | Stopping distances grow on wet roads, visibility is lower in the dark, and a heavier vehicle takes longer to stop. |
 | Leave more room behind trucks, buses and motorcycles. | Large vehicles block your view of what's ahead, and motorcycles can stop more quickly than you expect. |
 | When stopped in traffic, stay far enough back to see the rear tyres of the vehicle ahead touching the road. | You have room to steer around it if it stalls, and you're less likely to be pushed into it if you're hit from behind. |
-| Don't close the gap because someone is tailgating you. | Ease off gently to widen the gap in front, which gives you both more time to stop, or let them pass when it's safe. |
-| When someone cuts into your gap, drop back and rebuild it. | The gap only works if you keep it, and it's quicker to lose a car length than to have a crash. |
+| Don't let others shrink your gap: if someone tailgates you or cuts in, ease off and rebuild it. | The gap only works if you keep it, and losing a car length is quicker than having a crash. |
 
 ## Context
 
@@ -36,12 +34,15 @@ There's a trade-off between space and flow. In heavy traffic a three-second gap 
 
 ## Usage
 
-**Setting the gap:** pick a fixed point ahead, count as the vehicle in front passes it, and adjust your speed until you can finish the count. Recheck every so often, especially after speed changes.
+**Setting the gap:** pick a fixed point ahead, such as a sign or a shadow. When the vehicle in front passes it, count "one thousand and one, one thousand and two, one thousand and three". If you reach the point before you finish, you're too close, so ease off until you can finish the count. Recheck every so often, especially after speed changes, and leave more than three seconds at motorway speeds.
 
-**In lane changes and merges:** a good gap makes merging easier for everyone, see [Merge like a zip](../zip-merge/).
+**When someone is too close behind:** don't speed up or brake suddenly. Ease off gently to widen the gap in front, which gives you both more time to stop, and let them pass when it's safe.
 
-**Near your destination:** looking for a park while following closely is a common cause of nose-to-tail crashes. It helps to decide where you'll stop in advance, see [Park before you arrive](../city-parking-before-destination/).
+**In lane changes and merges:** a good gap makes merging easier for everyone, see [Merge like a zip](../zip-merge/). Near your destination, looking for a park while following closely is a common cause of nose-to-tail crashes, so decide where you'll stop in advance, see [Park before you arrive](../city-parking-before-destination/).
 
 ## References
 
-Your national or state road authority and driver's handbook give the official following-distance guidance and road rules where you drive.
+- [Safe stopping distance](https://www.nsw.gov.au/driving-boating-and-transport/roads-safety-and-rules/safe-driving/safe-stopping-distance), NSW Government. The official NSW guidance on the 3-second gap, with longer gaps at higher speeds and in poor conditions.
+- [How to deal with tailgating drivers](https://www.mynrma.com.au/open-road/advice-and-how-to/driving/tailgating), NRMA. Why following distance matters, recommended gaps, and what to do when someone tailgates you.
+- [Three Second Following Rule for Drivers](https://www.ltrent.com.au/blog/l-trent-safety-tip-three-second-following-rule/), LTrent Driving School. A driving school's explanation of how to count the gap from a fixed point.
+- [Drive Safe: The 3 Second Rule That Could Save Your Life](https://www.youtube.com/watch?v=Foy4AjRT50o), Travelers (YouTube). A short video showing how to measure a three-second following distance.

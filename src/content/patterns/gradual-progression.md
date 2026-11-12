@@ -18,11 +18,9 @@ This pattern is for recreational exercisers who want steady improvement. It desc
 
 | Recommendation | Why? |
 | --- | --- |
-| Change one variable at a time: distance, weight, speed or how often you train. | If you add several at once, you can't tell which one was too much. |
-| Keep weekly increases small. A common rule of thumb is around 10%. | Muscles adapt fairly quickly, but tendons, ligaments and bones take longer. The 10% figure is a guide, not a law, and beginners or people returning from injury may need less. |
+| Increase one thing at a time, in small steps. A common rule of thumb is around 10% a week. | You can tell what was too much, and tendons, ligaments and bones adapt more slowly than muscles. The 10% figure is a guide, not a law, and beginners or people returning from injury may need less. |
 | Get the technique right before adding load. | Adding weight or speed to a poor movement pattern makes strain more likely. |
 | Plan an easier week every three to six weeks. | A lighter "deload" week lets your body catch up, and you often come back stronger. |
-| Keep a simple training log. | Written numbers stop you guessing, and show patterns such as soreness after a big jump. |
 | Learn the difference between discomfort and pain. | Muscle effort and mild soreness a day or two later are normal. Sharp, localised or worsening pain is a signal to stop. |
 | Return more slowly after illness, injury or a long break. | Fitness drops faster than you'd expect, and picking up where you left off is a common cause of injury. |
 
@@ -36,9 +34,9 @@ There's a trade-off between progress and safety. Bigger jumps can bring faster r
 
 ## Usage
 
-**Set a baseline:** for the first week or two, train at a level that feels comfortably manageable and record it. That's your starting point, not your ambition.
+**Set a baseline:** for the first week or two, train at a level that feels comfortably manageable and record it. That's your starting point, not your ambition. Keep a simple training log from then on: written numbers stop you guessing, and show patterns such as soreness after a big jump.
 
-**Add a little each week:** pick one thing to increase, such as an extra kilometre on your long run or 2.5 kg on a lift. Keep everything else the same. Always start each session with a proper [warm-up](../warm-up/).
+**Add a little each week:** pick one thing to increase (distance, weight, speed or how often you train), such as an extra kilometre on your long run or 2.5 kg on a lift. Keep everything else the same. Always start each session with a proper [warm-up](../warm-up/).
 
 **Check in:** before increasing again, ask how the last week felt. If you're unusually tired, sore for more than a couple of days or performing worse, repeat the week or step back. Rest is part of progression, as described in [Plan rest and recovery](../rest-days/).
 
@@ -46,4 +44,7 @@ There's a trade-off between progress and safety. Bigger jumps can bring faster r
 
 ## References
 
-A physiotherapist, an accredited exercise physiologist or a qualified coach can help you plan progression, especially after injury. Your national health authority's physical activity guidelines give general targets.
+- [Physical activity – how to get started](https://www.betterhealth.vic.gov.au/health/healthyliving/physical-activity-how-to-get-started), Better Health Channel (Victorian Government). Advises starting with short sessions and increasing their length and intensity gradually.
+- [The 10% Rule: Does it hold True?](https://www.pogophysio.com.au/blog/the-10-rule-does-it-hold-true/), POGO Physio. An Australian sports physiotherapist explains why the 10% rule is a useful guideline rather than a hard limit.
+- [Luke Humphrey Running: The 10% Rule](https://www.youtube.com/watch?v=eUdotR35gJE), Luke Humphrey Running (YouTube). A running coach on using the 10% rule when building weekly mileage.
+- [Recommendations for adults (18 to 64 years)](https://www.health.gov.au/topics/physical-activity/24-hour-movement-guidelines-for-all-australians/recommendations-for-adults-18-to-64-years), Australian Government Department of Health, Disability and Ageing. The national targets for activity, strength training and sleep.

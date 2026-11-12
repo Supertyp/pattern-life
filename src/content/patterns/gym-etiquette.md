@@ -20,12 +20,9 @@ This pattern is for anyone who trains in a shared gym. It describes the everyday
 | --- | --- |
 | Wipe down benches, mats and handles after you use them. | Sweat and germs stay on surfaces, and the next person shouldn't have to clean up after you. |
 | Re-rack weights, plates and dumbbells where they belong. | Loose plates are a trip hazard, and people waste time hunting for the weight they need. |
-| Don't occupy equipment while you rest, scroll or take a call. | Others are waiting, and long breaks on a machine block it for everyone. |
-| Let people work in between your sets when it's busy. | Alternating sets means two people can use one station without either waiting long. |
+| Share stations when it's busy: let people work in, and don't sit on equipment to rest, scroll or take a call. | Alternating sets means two people can use one station without either waiting long. |
 | Give lifters plenty of room and don't walk close behind or in front of them during a set. | Someone moving a heavy weight needs space, and a sudden distraction can cause a mistake. |
-| Keep your music in your headphones and your voice down. | Not everyone shares your playlist, and shouting across the floor disturbs people concentrating. |
 | Don't give unasked-for advice. Alert staff if you see something unsafe. | Unsolicited coaching is often unwelcome, but a real safety risk should be reported. |
-| Bring a towel and keep your bag out of walkways. | A towel keeps equipment clean as you go, and bags on the floor are easy to trip over. |
 
 ## Context
 
@@ -37,12 +34,15 @@ There's a trade-off between your own workout and sharing. Resting two to three m
 
 ## Usage
 
-**Arriving:** pick a quieter time if you can, and plan a backup exercise in case the equipment you want is busy. Do your [warm-up](../warm-up/) somewhere out of the way, not on the busiest rack.
+**Arriving:** pick a quieter time if you can, and plan a backup exercise in case the equipment you want is busy. Bring a towel to put between you and the bench, and do your [warm-up](../warm-up/) somewhere out of the way, not on the busiest rack.
 
-**During your session:** keep your gear together, wipe as you go, and if someone asks whether you have long left, give an honest answer or offer to let them work in. Respect personal space just as you would in a crowded lift, as in [Riding an elevator](../elevator-etiquette/).
+**During your session:** keep your gear together and your bag out of walkways, where it's easy to trip over. Keep your music in your headphones and your voice down, wipe as you go, and if someone asks whether you have long left, give an honest answer or offer to let them work in. Respect personal space just as you would in a crowded lift, as in [Riding an elevator](../elevator-etiquette/).
 
 **Finishing:** strip the bar, return every plate and dumbbell, wipe down what you used and check you've left nothing behind.
 
 ## References
 
-Your gym's house rules and its staff are the authority for that space. A qualified trainer can help if you're unsure how to use a piece of equipment safely.
+- [Gym Etiquette: 30 Unwritten Rules of the Gym](https://www.strengthlog.com/gym-etiquette/), StrengthLog. A detailed list covering re-racking, wiping down, working in, giving lifters space and keeping advice to yourself.
+- [Do You Have Bad Gym Etiquette?](https://www.acefitness.org/resources/everyone/blog/6397/do-you-have-bad-gym-etiquette/), American Council on Exercise. A certifying body's guide to sharing racks and machines, returning weights and cleaning up.
+- [The Ultimate Guide to Gym Etiquette: 14 Rules to Know](https://www.onepeloton.com/blog/gym-etiquette), The Output by Peloton. A readable overview of everyday gym courtesies.
+- [Beginner's Guide to the Gym | DOs & DON'Ts](https://www.youtube.com/watch?v=QC9d4DwHPAU), Annie Miller (YouTube). A short video on what to do and avoid when you start training in a shared gym.

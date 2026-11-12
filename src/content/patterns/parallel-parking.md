@@ -19,12 +19,9 @@ This pattern is for drivers who want to parallel park calmly and the same way ev
 | Recommendation | Why? |
 | --- | --- |
 | Check the space is about one and a half times your car's length. | That's enough room to reverse in with one movement while you're learning. |
-| Check your mirrors, indicate towards the kerb and stop alongside the car in front of the space. | Traffic behind knows what you're doing and holds back. |
-| Stop about half a metre to a metre out from that car, with your rear bumpers roughly level. | This sets up the same starting geometry every time. |
-| Reverse slowly until your rear wheels are level with the back of that car, then turn the wheel fully towards the kerb. | That's the point where the car can swing in without the front clipping the car ahead. |
-| Keep reversing until the car is at about 45 degrees to the kerb, then straighten the wheel. | You come in at a steady angle rather than heading straight for the kerb. |
-| When your front bumper clears the back of the car in front, turn the wheel fully away from the kerb. | The front swings in and the car lines up with the kerb. |
-| Straighten up, centre the car in the space and check the distance from the kerb. | Many places have a maximum distance from the kerb, and leaving room front and back lets others get out. |
+| Indicate towards the kerb and stop alongside the car in front of the space, about half a metre to a metre out, with your rear bumpers roughly level. | Traffic behind knows what you're doing, and you start from the same position every time. |
+| Turn the wheel fully towards the kerb when your rear wheels are level with the back of that car. | That's the point where the car can swing in without the front clipping the car ahead. |
+| Finish straight, centred in the space and close to the kerb. | Road rules generally require you to park as near to the kerb as practicable, and leaving room front and back lets others get out. |
 | Go slowly, look around, not just at the mirrors and camera, and start again if it's not working. | A second attempt is quicker than a scrape, and pedestrians and cyclists can appear suddenly. |
 
 ## Context
@@ -39,10 +36,14 @@ There's a trade-off between using reference points and trusting a camera or sens
 
 **Before you stop:** keep a safe gap behind the car in front of you so you can pull alongside the space without braking hard (see [Keep a three-second gap](../three-second-gap/)). Driving around looking for a space takes time, so decide in advance where you'll park, see [Park before you arrive](../city-parking-before-destination/).
 
+**The turns:** after the first full turn, keep reversing slowly until the car is at about 45 degrees to the kerb, then straighten the wheel so you come in at a steady angle. When your front bumper clears the back of the car in front, turn the wheel fully away from the kerb so the front swings in, then straighten up and adjust with small movements.
+
 **Learning your car:** practise in a quiet street with plenty of room. Notice which point on your car or window lines up with the other car at each step, and use that point every time.
 
 **Leaving:** reverse close to the car behind, indicate towards the traffic, check mirrors and blind spot, and pull out slowly with the wheel turned away from the kerb.
 
 ## References
 
-Your national or state road rules set the parking rules where you drive, including distance from the kerb and gaps to other vehicles. A licensed driving instructor can help you practise reference points in your own car.
+- [Top Tips for Reverse Parallel Parking](https://www.ltrent.com.au/blog/top-tips-for-parallel-parking/), LTrent Driving School. A step-by-step reverse parallel park from an Australian driving school, including space size and distance from the kerb.
+- [How to do the Parallel Park](https://www.drivejohnsons.co.uk/learning-centre/how-to-drive-a-car/manoeuvres/parallel-park/), driveJohnson's. A UK instructor's guide built around reference points in your mirrors and windows.
+- [How to do parallel parking - Driving lessons with AA Driving School](https://www.youtube.com/watch?v=faVRDi4LxmE), AA New Zealand (YouTube). A driving instructor demonstrates the manoeuvre between two parked cars.

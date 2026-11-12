@@ -18,14 +18,11 @@ This pattern is for travellers who check luggage. It describes what to keep in t
 
 | Recommendation | Why? |
 | --- | --- |
-| Keep all medication in your carry-on, in its original packaging, with a copy of your prescription or a letter from your doctor. | You may need it on the way, and labelled packaging and a prescription help at security and customs. |
-| Bring a few days' more medication than the trip needs. | Delays happen, and some medicines are hard to get, or are controlled, in other countries. |
-| Keep passports, tickets, cards, cash and insurance details on you or in your carry-on. | You need them at every step, and they're the hardest things to replace. |
-| Carry valuables, electronics and chargers in the cabin. | Checked bags are handled roughly and are more likely to go missing. |
-| Put power banks and spare lithium batteries in your carry-on, never in checked luggage. | Airlines generally require this because battery fires are easier to deal with in the cabin; check your airline for size limits and rules on using them in flight. |
+| Carry all your medication, plus a few days' spare, in its original packaging with a copy of your prescription or a letter from your doctor. | You may need it on the way or if you're delayed, and labelled packaging and paperwork help at security and customs. |
+| Keep passports, tickets, cards, cash, valuables, electronics and chargers on you or in your carry-on. | You need them at every step, they're the hardest things to replace, and checked bags are handled roughly and more likely to go missing. |
+| Put power banks and spare lithium batteries in your carry-on, never in checked luggage. | Airlines and aviation regulators require this because battery fires are easier to deal with in the cabin. |
 | Pack one change of clothes and basic toiletries. | If your bag is delayed, you can still sleep, wash and get through the first day. |
-| Follow the liquids rules for your departure airport and pack liquids in a clear bag at the top. | Rules differ between countries and airports, and having them ready speeds up security. |
-| Check the airline's size and weight limits for cabin bags. | Over-limit bags may be taken off you at the gate and checked, along with everything in them. |
+| Check your airline's cabin bag limits and the liquids rules for your departure airport before you pack. | Over-limit bags may be taken off you at the gate and checked, and liquids rules differ between countries and airports. |
 
 ## Context
 
@@ -37,7 +34,9 @@ There's a trade-off between a light carry-on and being self-sufficient. Every es
 
 ## Usage
 
-**When packing:** mark carry-on items on your [packing list](../packing-list/) so they go straight into the right bag. Keep medication, documents and electronics in the same pockets every trip so you can check them at a glance.
+**When packing:** mark carry-on items on your [packing list](../packing-list/) so they go straight into the right bag. Keep medication, documents and electronics in the same pockets every trip so you can check them at a glance. Pack liquids in a clear bag at the top so security is quick. Check your airline for limits on battery size and number, and on using power banks in flight.
+
+**For medication:** some medicines are hard to get, or are controlled, in other countries. Check with your doctor or pharmacist, and with the embassy of the country you're visiting, whether yours is restricted there.
 
 **For documents:** carry the originals and keep copies separately, see [Back up your travel documents](../travel-document-backup/).
 
@@ -45,4 +44,7 @@ There's a trade-off between a light carry-on and being self-sufficient. Every es
 
 ## References
 
-Your airline and the security authority at your departure airport publish the current rules on liquids, batteries and cabin bag limits. Your pharmacist or doctor can advise on travelling with medication, and the embassy of the country you're visiting can tell you whether a medicine is restricted there.
+- [Taking medicine and medical devices overseas](https://www.smartraveller.gov.au/before-you-go/health/medications), Smartraveller. Official Australian advice on doctor's letters, original packaging and checking whether a medicine is legal at your destination.
+- [Power Bank - lithium ion battery not exceeding 100 Wh (Watt Hours)](https://www.casa.gov.au/node/422724), Civil Aviation Safety Authority. Australia's rule that power banks can be carried on but not checked in, with quantity limits.
+- [Carry-on baggage allowances](https://www.qantas.com/au/en/travel-info/baggage/carry-on-baggage.html), Qantas. An example of an airline's cabin bag size and weight limits.
+- [What Does Rick Pack?](https://www.ricksteves.com/watch-read-listen/video/travel-talks/what-does-rick-pack), Rick Steves' Europe. A short video tour of what a seasoned traveller keeps in his carry-on.

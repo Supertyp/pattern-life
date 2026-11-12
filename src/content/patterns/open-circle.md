@@ -18,11 +18,8 @@ This pattern is for anyone mingling at a conference, reception or networking eve
 
 | Recommendation | Why? |
 | --- | --- |
-| When standing in a group, leave a gap about one person wide. | The open shape (sometimes called the "Pac-Man rule") signals that others are welcome, and someone can step in without asking. |
-| Shift to widen the circle when someone approaches. | Making space is the clearest welcome there is, and it saves the newcomer from hovering. |
-| To join, approach an open group, stand at the edge and listen. | You get a sense of the topic and avoid interrupting mid-sentence. |
-| Wait for a natural pause, then introduce yourself briefly. | A name and a one-line reason you're there is enough, and it lets the group carry on. |
-| Wear your name badge on the right side of your chest. | When you shake hands with your right hand, the other person's eye naturally falls on your right side. |
+| When standing in a group, leave a gap about one person wide, and widen it when someone approaches. | The open shape (sometimes called the "Pac-Man rule") signals that others are welcome, and making space saves a newcomer from hovering. |
+| To join, stand at the edge of an open group, listen, and introduce yourself briefly at a natural pause. | You get a sense of the topic without interrupting, and a name plus a one-line reason you're there lets the group carry on. |
 | Leave by giving a short, honest reason and thanks. | "I'm going to grab a coffee before the next session, it was good to meet you" closes the conversation warmly. |
 | Follow up within a week with anyone you'd like to stay in touch with. | People still remember the conversation, and a brief message with something specific turns a chat into a contact. |
 
@@ -38,7 +35,7 @@ There's a trade-off between depth and breadth. Staying with one group gives you 
 
 **In a group:** keep your body angled slightly open toward the room. When someone joins, greet them, give a one-sentence recap of the topic and include them in the next question.
 
-**Joining:** look for groups of three or more with a visible gap, or someone standing alone. Make eye contact, smile, and wait for the pause. Plan your breaks with [Plan your conference, leave gaps](../conference-session-plan/) so you're not always rushing off.
+**Joining:** look for groups of three or more with a visible gap, or someone standing alone. Make eye contact, smile, and wait for the pause. Wear your name badge on the right side of your chest: when you shake hands with your right hand, the other person's eye naturally falls there. Plan your breaks with [Plan your conference, leave gaps](../conference-session-plan/) so you're not always rushing off.
 
 **Leaving:** wait until you've finished speaking or the topic shifts, then excuse yourself. If you promised to send something, note it straight away.
 
@@ -46,4 +43,7 @@ There's a trade-off between depth and breadth. Staying with one group gives you 
 
 ## References
 
-Conference organisers and professional associations often publish networking tips for attendees. The open-group idea is widely shared among event organisers as an informal social convention.
+- [The Pac-Man Rule at Conferences](https://www.ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/), Eric Holscher. The original post proposing that standing groups leave room for one more person.
+- [The Pac-Man Rule](https://accu.org/conf-menu-overviews/pacman_rule/), ACCU. A conference organiser's explanation of the rule and why it makes groups more welcoming.
+- [How to break into a group at any event](https://www.youtube.com/watch?v=0MSuAsEgWOw), Vanessa Van Edwards (YouTube). A short video on approaching and joining a group that's already talking.
+- [Networking Events - How to get into and out of conversations](https://www.youtube.com/watch?v=aLTI49PVoSw), Andy Lopata (YouTube). A networking specialist on joining conversations and leaving them politely.

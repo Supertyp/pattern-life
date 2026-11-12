@@ -18,11 +18,9 @@ This pattern is for anyone whose work mixes deep, demanding tasks with a steady 
 
 | Recommendation | Why? |
 | --- | --- |
-| Book focus blocks of 60 to 120 minutes in your calendar. | A visible booking stops others filling the time, and it's long enough to get into hard work. |
+| Book focus blocks of 60 to 120 minutes in your calendar, at the time of day your energy is highest. | A visible booking stops others filling the time, and it's long enough to get into hard work. Many people concentrate best in the morning, but use whatever time works for you. |
 | Decide the one task for each block before it starts. | You don't spend the first part of the block choosing what to do. |
-| Turn off email and chat notifications during the block. | Each interruption costs more than its own time, because it takes a while to get your concentration back. |
-| Put your phone out of sight, on silent. | Even a visible phone draws attention, and silent mode stops the buzzing. |
-| Schedule blocks when your energy is highest. | Many people concentrate best in the morning, but use whatever time works for you. |
+| Turn off email and chat notifications, and put your phone out of sight on silent. | Each interruption costs more than its own time, because it takes a while to get your concentration back. Even a visible phone draws attention. |
 | Take a short break between blocks. | Standing up, moving and resting your eyes helps you keep going through the day. |
 | Batch small tasks into their own slot. | Email, admin and quick replies fit well between blocks rather than inside them. |
 
@@ -46,4 +44,7 @@ There's a trade-off between availability and focus. Being reachable at all times
 
 ## References
 
-Many workplace productivity and wellbeing guides, including those from occupational psychologists and workplace health bodies, recommend reducing interruptions and scheduling time for focused work.
+- [Time Blocking - Your Complete Guide to More Focused Work](https://www.todoist.com/productivity-methods/time-blocking), Todoist. A practical guide to booking deep-work blocks in your calendar and making them visible to colleagues.
+- [Deep Habits: The Importance of Planning Every Minute of Your Work Day](https://calnewport.com/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/), Cal Newport. The author of *Deep Work* explains how he plans each day in blocks and adjusts the plan when things change.
+- [The Cost of Interrupted Work: More Speed and Stress](https://www.ics.uci.edu/~gmark/chi08-mark.pdf), Gloria Mark, Daniela Gudith and Ulrich Klocke (University of California, Irvine). A study finding that people work faster after interruptions but with more stress, frustration and time pressure.
+- [How I Manage My Time - 10 Time Management Tips](https://www.youtube.com/watch?v=iONDebHX9qk), Ali Abdaal. A video covering time blocking, protected time and other everyday time management habits.

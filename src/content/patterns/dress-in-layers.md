@@ -21,10 +21,8 @@ This pattern is for walkers, hikers, cyclists and anyone spending a day outside 
 | Wear a base layer of merino wool or synthetic fabric, not cotton. | Wicking fabrics move sweat away from your skin and stay warm when damp, while wet cotton holds water and draws heat out of your body. |
 | Add an insulating mid layer, such as a fleece or light puffy jacket. | It traps warm air, and you can take it on and off quickly as conditions change. |
 | Carry a waterproof, windproof shell, even if the forecast looks fine. | Wind and rain strip heat fast, and a shell weighs little compared with the trouble it saves. |
-| Start a little cool. | You'll warm up within 10 to 15 minutes of moving, and starting in everything means sweating into your clothes early. |
-| Take a layer off before you sweat, and put one on before you get cold. | It's much easier to stay dry and warm than to get dry and warm again. |
-| Pack a hat and gloves. | You lose a lot of comfort through your head and hands, and they're the smallest, lightest way to add warmth. |
-| Carry one spare warm layer in a dry bag. | If you're delayed, injured or get wet, a dry layer can make the difference between uncomfortable and dangerous. |
+| Start a little cool, then take a layer off before you sweat and put one on before you get cold. | It's much easier to stay dry and warm than to get dry and warm again. |
+| Pack a hat, gloves and one spare warm layer in a dry bag. | They're the lightest way to add warmth, and if you're delayed, injured or get wet, a dry layer can make the difference between uncomfortable and dangerous. |
 
 ## Context
 
@@ -36,9 +34,9 @@ There's a trade-off between weight and margin. Every extra layer is something to
 
 ## Usage
 
-**Before you go:** check the forecast for the highest and most exposed point of your route, not just where you start, and lay out the three layers plus hat, gloves and spare. A reusable list helps, see [Pack from a reusable list](../packing-list/).
+**Before you go:** check the forecast for the highest and most exposed point of your route, not just where you start, and lay out the three layers plus hat, gloves and spare. A reusable list helps, see [Pack from a reusable list](../packing-list/). Wash and reproof your waterproof shell as the care label and manufacturer recommend, so it keeps shedding rain.
 
-**At the start:** dress so you're slightly cool standing still. If you're about to do something strenuous, a short [warm-up](../warm-up/) gets you to temperature without overdressing.
+**At the start:** dress so you're slightly cool standing still. You'll warm up within 10 to 15 minutes of moving, and starting in everything means sweating into your clothes early. If you're about to do something strenuous, a short [warm-up](../warm-up/) gets you to temperature without overdressing.
 
 **On the move:** stop briefly to adjust at the first sign of sweat or chill, rather than pushing on to the next rest. Put your mid layer back on as soon as you stop for a break, before you start to feel cold.
 
@@ -46,4 +44,7 @@ There's a trade-off between weight and margin. Every extra layer is something to
 
 ## References
 
-Your national or state parks authority and bushwalking or mountaineering clubs publish clothing and safety advice for local conditions. The care label and manufacturer's instructions tell you how to wash and reproof waterproof shells.
+- [How to Dress in Layers: Tips for Staying Warm](https://www.rei.com/learn/expert-advice/layering-basics.html), REI Expert Advice. Explains what base, mid and outer layers each do and how to choose fabrics.
+- [What to wear camping: layering basics || REI](https://www.youtube.com/watch?v=W8AjrLz_I4o), REI. A short video walking through a three-layer outfit.
+- [How to... make the best use of LAYERING](https://greatwalks.com.au/how-to/how-to-make-the-best-use-of-layering), Great Walks. An Australian bushwalking magazine's guide to combining layers for different weather.
+- [Think Before You TREK](https://www.nationalparks.nsw.gov.au/safety/bushwalking-safety/think-before-you-trek), NSW National Parks and Wildlife Service. Bush safety advice that includes planning for all weather conditions and packing the right clothing.

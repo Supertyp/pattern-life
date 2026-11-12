@@ -18,12 +18,10 @@ This pattern is for drivers heading into a busy city centre, event or shopping d
 
 | Recommendation | Why? |
 | --- | --- |
-| Decide on a car park before you leave, not when you arrive. | You avoid searching for a space while navigating heavy traffic. |
+| Decide on a car park, and a backup, before you leave. | You avoid searching for a space in heavy traffic, and if the first one is full you already know where to go next. |
 | Set your navigation to the car park entrance, not your destination. | The route takes you straight in rather than past the destination and around the block. |
 | Choose a car park on your approach side of the centre, a short walk away. | You stay out of the most congested streets in the middle. |
-| Pick a backup car park nearby. | If the first one is full, you already know where to go next. |
 | Consider park-and-ride for large events and city centres. | It's often cheaper and quicker overall than driving all the way in. |
-| Check the time limits and payment methods in advance. | It avoids fines and fumbling with an unfamiliar parking machine. |
 
 ## Context
 
@@ -35,7 +33,7 @@ There's a trade-off between price and walking distance. Car parks further from t
 
 ## Usage
 
-**Before leaving:** use a map or parking app to choose a main and a backup car park, and note their opening hours, prices and entrance streets.
+**Before leaving:** use a map or parking app to choose a main and a backup car park, and note their opening hours, prices and entrance streets. Check the time limits and how you pay, so you don't risk a fine or fumble with an unfamiliar machine. Many city car parks are cheaper if you book online in advance.
 
 **On the way:** navigate to the car park entrance. If it's full, go straight to the backup rather than circling. If you end up parking on the street, see [Parallel parking by reference points](../parallel-parking/).
 
@@ -43,4 +41,6 @@ There's a trade-off between price and walking distance. Car parks further from t
 
 ## References
 
-Your city council's parking pages list public car parks, time limits and park-and-ride options.
+- [Transport Park&Ride car parks](https://transportnsw.info/parkandride), Transport for NSW. How free commuter parking at stations works, with real-time space availability.
+- [Parking and driving](https://whatson.melbourne.vic.gov.au/visitor-info/getting-around/driving), City of Melbourne. An example of a council visitor guide to city car parks, street time limits, pre-booking and accessible parking.
+- [Melbourne parking tip #1: Your time starts when you stop](https://www.youtube.com/watch?v=xCTt-eQT8nc), City of Melbourne (YouTube). A short video on how street parking time limits are counted.

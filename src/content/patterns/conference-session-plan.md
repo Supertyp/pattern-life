@@ -18,11 +18,9 @@ This pattern is for anyone attending a conference, workshop or multi-track event
 
 | Recommendation | Why? |
 | --- | --- |
-| Read the whole programme before you arrive, not on the morning. | You spot clashes, room changes and the sessions you'd otherwise miss, while you still have time to think. |
-| Pick a few must-see sessions each day, and a backup for each slot. | A short list is realistic, and a backup saves you from wandering when a room is full or a talk is cancelled. |
+| Before you arrive, pick a few must-see sessions each day, with a backup for each slot. | Reading the programme early shows you clashes and room changes, and a backup saves you from wandering when a room is full or a talk is cancelled. |
 | Leave at least one slot free each half-day. | Many of the most useful conversations happen in the hallway, and a gap gives you time to eat, rest and catch up. |
-| Sit near the aisle or at the end of a row. | You can leave or arrive without climbing over people, and you can switch sessions quietly. |
-| Leave a session quietly if it's not what you expected. | Your time is limited, and slipping out between talks or from the back is normal at most conferences. |
+| Sit near an aisle so you can leave quietly if a session isn't what you expected. | Your time is limited, slipping out between talks is normal at most conferences, and you won't have to climb over people. |
 | Take notes with the session title and speaker at the top. | Notes without context are hard to use later, and the name lets you look up the slides or paper. |
 | Write up your notes and contacts the same day. | Memory fades fast over a busy week, and a short summary each evening is far easier than a long one at the end. |
 
@@ -36,7 +34,7 @@ There's a trade-off between coverage and depth. Packing every slot feels efficie
 
 ## Usage
 
-**Before you go:** read the programme and mark your must-see sessions, backups and gaps. Note room locations and walking time between buildings. If you're crossing time zones, start adjusting early using [Shift to local time quickly](../beat-jet-lag/).
+**Before you go:** read the whole programme a few days ahead rather than on the morning, and mark your must-see sessions, backups and gaps. Note room locations and walking time between buildings. If you're crossing time zones, start adjusting early using [Shift to local time quickly](../beat-jet-lag/).
 
 **Each morning:** check for programme changes, and decide which gap you'll use for coffee, a walk or a planned chat. Keep water and a snack with you.
 
@@ -46,4 +44,7 @@ There's a trade-off between coverage and depth. Packing every slot feels efficie
 
 ## References
 
-The conference programme and organisers' website are the best source for session times, rooms and changes. Many professional associations also publish guidance for first-time attendees.
+- [How to Get The Most Out of Conferences](https://scottberkun.com/essays/24-how-to-get-the-most-out-of-conferences/), Scott Berkun. Advises marking must-see sessions in advance, sitting near an aisle and leaving a session that isn't working for you.
+- [Conference tips: planning your attendance](https://sachachua.com/blog/2010/12/conference-tips-planning-your-attendance/), Sacha Chua. On setting goals, choosing sessions and keeping backups ready.
+- [Making the most of the conference hallway track](https://sachachua.com/blog/2010/12/making-the-most-of-the-conference-hallway-track/), Sacha Chua. Why conversations between sessions are often the most valuable part of a conference.
+- [Suggestions and Tips for attending your first tech conference](https://www.hanselman.com/blog/suggestions-and-tips-for-attending-your-first-tech-conference), Scott Hanselman. A roundup of advice on pacing yourself, hallway conversations and taking notes.

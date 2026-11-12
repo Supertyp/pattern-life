@@ -18,12 +18,9 @@ This pattern is for anyone who owns a bare cast iron pan. It describes a simple 
 
 | Recommendation | Why? |
 | --- | --- |
-| Clean the pan while it's still warm. | Food lifts off easily before it sets, and you avoid soaking. |
-| Rinse with hot water and scrub with a brush or scraper; a little dish soap is fine on a well-seasoned pan. | Modern dish soap doesn't strip polymerised seasoning. Harsh scouring and long soaks are what damage it. |
+| Clean the pan while it's still warm, with hot water and a brush or scraper; a little dish soap is fine. | Food lifts off easily before it sets. Modern dish soap doesn't strip polymerised seasoning; harsh scouring and long soaks do. |
 | Never soak the pan or put it in the dishwasher. | Long exposure to water and detergent causes rust and strips the seasoning. |
-| Dry it straight away, then warm it on the stove for a minute or two. | Heat drives out moisture from the pores, which stops rust forming. |
-| Rub in a very thin film of cooking oil and wipe off the excess. | The oil protects the surface and adds to the seasoning. Too much goes sticky. |
-| Avoid long simmering of acidic food, like tomato sauce or wine, in new or thinly seasoned pans. | Acid can strip seasoning and give food a metallic taste. A well-seasoned pan handles brief contact. |
+| Dry it straight away, warm it on the stove, then wipe in a very thin film of oil. | Heat drives the last moisture out so rust can't form, and the oil protects and builds the seasoning. Too much oil goes sticky. |
 | Re-season the pan in the oven when it looks dull, grey, sticky or rusty. | A fresh layer of baked-on oil restores the protective, non-stick surface. |
 
 ## Context
@@ -42,8 +39,11 @@ There's a trade-off between ease and care. Cast iron takes a minute more after e
 
 **Re-seasoning:** scrub off any rust with steel wool, wash, dry thoroughly on the stove, and wipe a very thin layer of oil over every surface, including the handle and base. Bake it upside down in an oven at about 230 to 250 °C for an hour, with a tray underneath for drips, then let it cool in the oven. Repeat two or three times for a badly worn pan.
 
-**Cooking:** preheat gradually on medium for even heat, as cast iron heats slowly and holds heat well. Because it's so hot, thinner cuts cook quickly, so check doneness with a thermometer; see [Cook by temperature, not time](../cook-by-temperature/).
+**Cooking:** preheat gradually on medium for even heat, as cast iron heats slowly and holds heat well. Because it's so hot, thinner cuts cook quickly, so check doneness with a thermometer; see [Cook by temperature, not time](../cook-by-temperature/). Avoid long simmering of acidic food, like tomato sauce or wine, in a new or thinly seasoned pan, as acid can strip the seasoning and give food a metallic taste; a well-seasoned pan handles brief contact.
 
 ## References
 
-The pan maker's care instructions explain seasoning and cleaning for that pan, and your oil's label gives its smoke point.
+- [How to Clean](https://www.lodgecastiron.com/pages/how-to-clean), Lodge Cast Iron. The maker's wash, dry and oil routine, including why soap is fine but soaking and dishwashers are not.
+- [How to Season](https://www.lodgecastiron.com/pages/how-to-season), Lodge Cast Iron. Step-by-step oven seasoning: a thin coat of oil, baked upside down for an hour.
+- [Quick Tips for Cast Iron Use & Care](https://www.youtube.com/watch?v=4Q8t_vSisYM), Lodge Cast Iron (YouTube). Six short tips on cooking with and cleaning cast iron.
+- [The Best Way To Clean and Season a Cast Iron Skillet | Epicurious 101](https://www.youtube.com/watch?v=P4zW-C010oc), Epicurious (YouTube). A chef demonstrates seasoning, cleaning and storage.
