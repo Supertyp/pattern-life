@@ -53,7 +53,7 @@ and where we left off. Keep it up to date at the end of each working session.
 - **Clusters (life areas):** `src/content/clusters/<id>.md` with `title` ("X patterns"), `framing` and `order`,
   plus a short body.
   - Current clusters: kitchen (1), outdoors "Hiking patterns" (2), city "City and traffic patterns" (3), travel (4),
-    conferences (5), office (6), shared-spaces (7), fitness (8), embroidery (9).
+    conferences (5), office (6), shared-spaces (7), fitness (8), embroidery (9), home "Home and household patterns" (10).
 - **Cross-links:** inside a body, link with a relative path, `[Title](../other-id/)`, and/or list ids in `related`.
   - `getRelatedMap()` in `src/lib/patterns.ts` makes the links two-way and shows them as "Related patterns".
   - Unknown ids **fail the build** on purpose.
@@ -126,6 +126,7 @@ and where we left off. Keep it up to date at the end of each working session.
    transferring, starting and ending threads, managing thread, planning stitch order, finishing, and stitching
    comfortably. Seven are stitches: back, stem, satin, French knot, long-and-short, lazy daisy and cross-stitch
    basics. Also added two embroidery journeys.
+3. Added the home life area with the user's own idea, `buying-socks` (identical sets, avoid "variety fraud").
 
 ## Where we left off / possible next steps
 
