@@ -66,7 +66,8 @@ and where we left off. Keep it up to date at the end of each working session.
   plus a short body.
   - Current clusters: kitchen (1), outdoors "Hiking patterns" (2), city "City and traffic patterns" (3), travel (4),
     conferences (5), office (6), shared-spaces (7), fitness (8), embroidery (9), home "Home and household patterns" (10),
-    dining "Table and dining patterns" (11), notebooks "Jupyter notebook patterns for HASS" (12).
+    dining "Table and dining patterns" (11), notebooks "Jupyter notebook patterns for HASS" (12),
+    trade "Trade agreement patterns" (13).
 - **Cross-links:** inside a body, link with a relative path, `[Title](../other-id/)`, and/or list ids in `related`.
   - `getRelatedMap()` in `src/lib/patterns.ts` makes the links two-way and shows them as "Related patterns".
   - Unknown ids **fail the build** on purpose.
@@ -178,6 +179,19 @@ sections above.
 - These patterns may contain **one short fenced code block** in Usage. It's rendered by Shiki (github-dark), with
   `.prose pre` styling in `global.css`. They run longer than everyday patterns (about 700 to 790 words).
 - glam-workbench.net blocks curl with a bot check, so references cite the GLAM Workbench GitHub repos instead.
+- The user hasn't reviewed these yet.
+
+## Session 2026-11-14: trade agreements
+
+- New area `trade` with one journey, "Negotiating an international trade agreement". The user asked for no more than
+  7 patterns covering requirements scope through negotiation and signing to execution: mandate, stakeholder
+  consultation, walkaway (BATNA), single negotiating text, legal scrub and signing, ratification and entry into force,
+  and implementation.
+- Neutral on countries and on free trade. Australia's treaty process (National Interest Analysis, JSCOT, Federal
+  Executive Council) is the running example, with EU and US comparisons.
+- Fact to remember: the Australia–EU FTA negotiations **concluded on 24 March 2026**, after breaking down in 2023
+  (confirmed on DFAT's site).
+- aph.gov.au returns 403 to curl, so JSCOT is referenced through DFAT pages.
 - The user hasn't reviewed these yet.
 
 ## Where we left off / possible next steps

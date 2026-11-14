@@ -142,4 +142,18 @@ export const journeys: Journey[] = [
       'archive-on-zenodo',
     ],
   },
+  {
+    title: 'Negotiating an international trade agreement',
+    intro:
+      'From deciding what you want out of an agreement to making sure exporters actually use it: scope and mandate, consultation, the negotiating rounds, signing, ratification and implementation.',
+    steps: [
+      'trade-negotiating-mandate',
+      'trade-stakeholder-consultation',
+      'know-your-walkaway',
+      'single-negotiating-text',
+      'legal-scrub-and-signing',
+      'ratification-and-entry-into-force',
+      'implementing-trade-agreements',
+    ],
+  },
 ];
